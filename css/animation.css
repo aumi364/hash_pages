@@ -1,0 +1,87 @@
+@-webkit-keyframes dropdown {
+    0% {
+        opacity: 0.8;
+        bottom: -10px;
+
+    }
+    100% {
+        opacity: 1;
+        bottom: -25px;
+    }
+}
+
+@-moz-keyframes dropdown {
+    0% {
+        opacity: 0.8;
+        bottom: -10px;
+
+    }
+    100% {
+        opacity: 1;
+        bottom: -25px;
+    }
+}
+
+@-o-keyframes dropdown {
+    0% {
+        opacity: 0.8;
+        bottom: -10px;
+
+    }
+    100% {
+        opacity: 1;
+        bottom: -25px;
+    }
+}
+
+@keyframes dropdown {
+    0% {
+        opacity: 0.8;
+        bottom: -10px;
+
+    }
+    100% {
+        opacity: 1;
+        bottom: -25px;
+    }
+}
+/****/
+@-webkit-keyframes scrolltoTop {
+    0% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 1px rgba(0, 123, 255, 0.23);
+
+    }
+    100% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 12px rgba(0, 123, 255, 0.23);
+    }
+}
+
+@-moz-keyframes scrolltoTop {
+    0% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 1px rgba(0, 123, 255, 0.23);
+
+    }
+    100% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 12px rgba(0, 123, 255, 0.23);
+    }
+}
+
+@-o-keyframes scrolltoTop {
+    0% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 1px rgba(0, 123, 255, 0.23);
+
+    }
+    100% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 12px rgba(0, 123, 255, 0.23);
+    }
+}
+
+@keyframes scrolltoTop {
+    0% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 1px rgba(0, 123, 255, 0.23);
+
+    }
+    100% {
+        box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7), 0 0 5px 12px rgba(0, 123, 255, 0.23);
+    }
+}

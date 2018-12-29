@@ -1,0 +1,19 @@
+<div class="d-flex flex-column align-items-start justify-content-center ph-100 sign-in-div">
+                      
+                           <div class="sign-up-banner">
+                                <div class="review_logo">
+                                    <img src="./img/logo_sign_up.png" alt="">
+                                   </div>
+                                    <p>
+                                        Behind every review  there is a personal story.
+                                    </p>
+                            </div>
+                               <h1 class="not_a_member">
+                                    NOT A <br>MEMBER ?
+                                </h1>
+                            <div class="form-group">
+                                <button type="submit" class="btn  login-btn btn-block log-in-button-background-color">Log in</button>
+                            </div>
+                     
+                        
+                    </div>
