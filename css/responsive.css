@@ -166,6 +166,10 @@
     .reviewer .below a {
         margin: -6px 0 0 0;
     }
+    .lg-display-none{
+        display: none;
+        visibility: hidden;
+    }
 
 }
 
@@ -189,6 +193,10 @@
     #highestProducts iframe {
         padding-left: 5px;
         padding-top: 20px;
+    }
+    .md-display-none{
+        display: none;
+        visibility: hidden;
     }
 }
 
@@ -287,8 +295,13 @@
         width:5rem;
     
     }
-   
-    
+   .login-secnd-form form{
+       padding: 0
+   }
+   .sm-display-none{
+       display: none;
+       visibility: hidden;
+   }
     
 
 }

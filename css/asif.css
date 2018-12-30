@@ -1,10 +1,18 @@
+.color-ash{
+    color: rgb(131, 130, 130);
+}
+.color-orange{
+    color: #fe8043;
+}
 /* decreasing the hegiht of the navbar */
-.vh-100{
+.vh-100 {
     min-height: 100vh;
 }
-.ph-100{
-    height:100%;
+
+.ph-100 {
+    height: 100%;
 }
+
 #mainMenu ul li {
     padding: 0;
 }
@@ -20,42 +28,55 @@
 
 .login-form {
     height: 100vh;
-    width:100%;
-    
-    
+    width: 100%;
+
+
 }
 
 .login-form form {
-    
-    width:40rem;
-    padding:7rem;
+
+    width: 40rem;
+    padding: 7rem;
 }
-.login-form form > * {
-   margin:3rem 2rem;
+
+.login-form form>* {
+    margin: 3rem 2rem;
 
 }
-.social-btn{
+
+.social-btn {
     padding: 0;
     margin: 0;
 }
+
 .social-btn .btn {
     border: none;
-    margin: 10px 3px 0;
+    margin: 10px  0;
     opacity: 1;
     border-radius: 0px;
+    width: 9.9rem;
+    padding-bottom: .75rem;
 }
+.social-btn .btn .fa{
+    color: white;
+}
+
 .social-btn .btn:hover {
     opacity: 0.9;
 }
+
 .social-btn .btn-primary {
     background: #507cc0;
 }
+
 .social-btn .btn-info {
     background: #64ccf1;
 }
+
 .social-btn .btn-danger {
     background: #df4930;
 }
+
 .or-seperator {
     margin-top: 20px;
     text-align: center;
@@ -64,34 +85,63 @@
 
 .or-seperator i {
     padding: 0 10px;
-    background:white;
+    background: white;
     position: relative;
     top: -11px;
     z-index: 1;
+    font-style: inherit;
 }
+
 input[type] {
     outline: none;
     border: none;
     border-bottom: 2px solid rgb(172, 171, 171);
 }
-textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,  input[type="color"]:focus, .uneditable-input:focus, .form-control:focus {  
-    border-color:none;
-    box-shadow: none;
-    outline:  none;
+
+input.form-control {
+    background: transparent;
 }
-.input-group-addon{
+
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+.form-control:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+}
+
+.input-group-addon {
     border-bottom: 2px solid rgb(172, 171, 171);
 }
-.fa{
+
+.fa {
     position: relative;
     padding-top: .75rem;
-    color:rgb(133, 130, 130);
+    color: rgb(133, 130, 130);
 }
-.sign-in-button-background-color{
+
+.sign-in-button-background-color {
     color: white;
     background-color: #000f3f;
     border-radius: 0px;
 }
+
 /* .sign-up-banner{
 
 }
@@ -121,47 +171,104 @@ textarea:focus, input[type="text"]:focus,textarea[type="text"]:focus,   input[ty
     width:22rem;
 
 } */
-.sign-up-form{
+.sign-up-form {
+  
     height: 100vh;
-    width:100%;
-    background:linear-gradient(rgba(0,11,62,.9),rgba(5, 14, 56,.9)),url("../img/review_signupnow_image.png") right;
+    width: 100%;
+    background: linear-gradient(rgba(0, 11, 62, .9), rgba(5, 14, 56, .9)), url("../img/review_signupnow_image.png") right;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     color: white;
 }
-.sign-up-form .container-fluid{
-   
-    width:40rem;
-    height:53.895rem;
-    
-}
 
-.sign-up-div .not_a_member{
-    padding:3.5rem;
-    padding-left:0;
+.sign-up-form .container-fluid {
+
+    width: 40rem;
+    height: 53.895rem;
 
 }
-.sign-up-div .log-in-button{
-    padding:2rem;
-    padding-left:0;
+.sign-up-div .sign-up-banner {
+    position: relative;
+    bottom: 3rem;
 
 }
-.log-in-button-background-color{
+.sign-up-div .not_a_member {
+    padding: 3.95rem;
+    padding-left: 0;
+
+}
+
+.sign-up-div .log-in-button {
+    padding: 1rem;
+    padding-left: 0;
+
+}
+
+.log-in-button-background-color {
     background-color: #f9b41f;
-    color:rgba(0,11,62,.9);
+    color: rgba(0, 11, 62, .9);
     border-radius: 0px;
-    width:22rem;
+    width: 22rem;
 
 }
-.login-section-slider{
+
+.login-section-slider {
     position: absolute;
     bottom: 0;
     right: 0;
-    display:none;
+    display: none;
     visibility: hidden;
     height: 100vh;
-    width:0;
+    width: 0;
     z-index: 1000;
-    background: rgb(228, 1, 1);
+    background: #000032;
+    transition: all 0.5s ease;
+    overflow-x: hidden;
+}
+
+.sign-up-slider-add-visible {
+    display: none;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
     transition: all .5s ease;
+}
+
+.login-secnd-form {
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.login-secnd-form form {
+    position: absolute;
+    width: 40rem;
+    padding: 3rem 2rem;
+    color: white;
+}
+
+.login-secnd-form form>* {
+    margin: 3rem 2rem;
+}
+
+.login-secnd-form form .clearfix a {
+    color: white;
+    display: inline-block;
+}
+
+.log-in-button2-background-color {
+    
+    width: 100%;
+    background-color: #f9b41f;
+    border-radius: 0;
+}
+#sign-in-span{
+    margin: 0 .5rem;
+    color: white;
+    display: inline;
+    border-bottom: 1px solid white;
+}
+#second-or-separator i {
+    background: #000032;
 }
