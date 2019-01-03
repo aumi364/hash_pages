@@ -1,20 +1,21 @@
 <!Doctype html>
 <html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Reviews Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <meta name="description" content="description "/>
-    <meta name="keywords" content=""/>
+    <meta name="description" content="description " />
+    <meta name="keywords" content="" />
     <meta name="author" content="">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="3 days">
 
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content="Reviews"/>
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Reviews" />
     <link rel="icon" href="img/favicon.png" type="image/gif">
     <!-- Place favicon.ico in the root directory -->
 
@@ -27,139 +28,209 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<section id= "sign-up">
-    <div class="container-fluid" id="sign-up-slider">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="d-flex justify-content-end align-items-center login-form">
-                        
-                    
-                    <form action="" method="post" >
-                        <h2 class="text-left">Login with</h2>     
-                        <div class="d-flex justify-content-between social-btn">
+    <section id="sign-up">
+        <div class="container-fluid" id="sign-up-slider">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="d-flex justify-content-end align-items-center login-form">
+
+
+                        <form action="" method="post" id="custom-validate" novalidate>
+                            <h2 class="text-left">Login with</h2>
+                            <div class="d-flex justify-content-between social-btn">
                                 <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
                                 <a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
-                        </div>
-                        <div class="or-seperator"><i>OR</i></div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input type="text" class="form-control" name="username" placeholder="Username" required="required">				
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" class="form-control" name="password" placeholder="Password" required="required">				
-                            </div>
-                        </div>        
-                        <div class="form-group">
-                            <button type="submit" class="btn  login-btn btn-block sign-in-button-background-color">Log in</button>
-                        </div>
-                        
-                        <div class="clearfix">
-                            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
-                            <a href="#" class="pull-right color-white">Forgot Password?</a>
-                        </div>
-                        
-                        
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="d-flex justify-content-end align-items-center sign-up-form">
-                    <div class="container-fluid">
-                        <div class="d-flex flex-column align-items-start justify-content-center ph-100 sign-up-div">
-                      
-                            <div class="sign-up-banner">
-                                 <div class="review_logo">
-                                     <img src="./img/logo_sign_up.png" alt="">
-                                    </div>
-                                     <p>
-                                         Behind every review  there is a personal story.
-                                     </p>
-                             </div>
-                            <h1 class="not_a_member">
-                                     NOT A <br>MEMBER ?
-                            </h1>
-                             <div class="form-group log-in-button" >
-                                 <button id="loginButton" class="btn  login-btn btn-block log-in-button-background-color">Log in</button>
-                             </div>
-                      
-                         
-                     </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    <section class="login-section-slider">
-        <div class="container-fluid">
-               
-                        <div class="row" style="padding: 0">
-                            <div class="col-lg-4 offset-lg-3 col-sm-12">
-                                <div class="d-flex justify-content-end align-items-center login-secnd-form">
-                                    
-                                
-                                <form action="" method="post" >
-                                    <h2 class="text-left" >Sign up with</h2>     
-                                    <div class="d-flex justify-content-between social-btn">
-                                            <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
-                                <a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
-                                    </div>
-                                    <div class="or-seperator" id="second-or-separator"><i>OR</i></div>
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" class="form-control" name="username" placeholder="Username" required="required">				
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                            <div class="input-group">
-                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                <input type="email" class="form-control" name="email" placeholder="Email" required="required">				
-                                            </div>
-                                        </div>
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="password" class="form-control" name="password" placeholder="Password" required="required">				
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-                                            <label class="checkbox-inline"><input type="checkbox" required="required">  I have read and agree in the<span class="color-orange"> terms & conditions.</span></label>
-                                           
-                                    </div>        
-                                    <div class="form-group">
-                                        <button type="submit" class="btn  login-btn btn-block log-in-button2-background-color">Sign up</button>
-                                    </div>
-                                    
-                                    <div class="clearfix color-ash">
-                                            Already a user?<a href="#"><span id="sign-in-span">SIGN IN</span></span></a>
-                                    </div>
-                                    
-                                    
-                                    
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 offset-1 sm-display-none md-display-none lg-display-none">
-                                <div class="container-fluid h-100 d-flex align-items-center">
-                                       <img src="./img/laptop.png" alt="">
-                                </div>
-                        </div>
-                    </div>
-        </div>
-        
-    </div>
-</section>
+                            <div class="or-seperator"><i>OR</i></div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    <input type="text" class="form-control" name="username" placeholder="Username"
+                                        required>
+                                    <div class="invalid-feedback">*required</div>
 
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="plugins/bootstrap-4.1.3/js/popper.min.js"></script>
-<script src="plugins/bootstrap-4.1.3/js/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2.3/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="input-group" id="show_hide_password">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                    <input type="password" class="form-control" name="password" placeholder="Password"
+                                        required>
+                                    <span class="input-group-addon"><a href=""><i class="fa fa-eye-slash" id="fa-eye-slash"></i></a></span>
+
+                                    <div class="invalid-feedback">*required</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn  login-btn btn-block sign-in-button-background-color font-weight-bold">Login</button>
+                            </div>
+
+                            <div class="clearfix">
+                                <label class="pull-left checkbox-inline color-ash"><input type="checkbox"> Remember me</label>
+                                <a href="#" class="pull-right color-ash">Forgot Password?</a>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center sign-up-form">
+                        <div class="container-fluid">
+                            <div class="d-flex flex-column align-items-start justify-content-center ph-100 sign-up-div">
+
+                                <div class="sign-up-banner">
+                                    <div class="review_logo">
+                                        <img src="./img/logo_sign_up.png" alt="">
+                                    </div>
+                                    <p>
+                                        Behind every review there is a personal story.
+                                    </p>
+                                </div>
+                                <h1 class="not_a_member">
+                                    NOT A <br>MEMBER ?
+                                </h1>
+                                <div class="form-group log-in-button">
+                                    <button id="loginButton" class="btn  login-btn btn-block log-in-button-background-color font-weight-bold">Sign
+                                        Up Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <section class="login-section-slider">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-3 col-sm-12">
+                        <div class="d-flex justify-content-end align-items-center login-secnd-form">
+                                
+
+                            <form action="" method="post" id="custom-validate-2" novalidate>
+                                    <h2 class="text-left">Sign up with</h2>
+                                <div class="d-flex justify-content-between social-btn">
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
+                                    <a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
+                                </div>
+                                <div class="or-seperator" id="second-or-separator"><i>OR</i></div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" class="form-control" name="username" placeholder="Username"
+                                            required>
+                                        <div class="invalid-feedback">*required</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="email" class="form-control" name="email" placeholder="Email"
+                                            required>
+                                        <div class="invalid-feedback">*required</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group" id="show_hide_password">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" name="password" placeholder="Password"
+                                            required>
+                                        <span class="input-group-addon"><a href=""><i class="fa fa-eye-slash" id="fa-eye-slash"></i></a></span>
+
+                                        <div class="invalid-feedback">*required</div>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <label class="checkbox-inline"><input type="checkbox" required> I have read and
+                                        agreed in the<span class="color-orange"> terms & conditions.</span></label>
+                                    <div class="invalid-feedback">*required</div>
+
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn  login-btn btn-block log-in-button2-background-color font-weight-bold">Sign
+                                        Up</button>
+                                </div>
+
+                                <div class="clearfix color-ash ">
+                                    Already a user?<a href="#"><span id="sign-in-span">SIGN IN</span></span></a>
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 offset-1 sm-display-none md-display-none padding-none">
+                        <div class="h-100 d-flex align-items-center justify-content-end padding-none">
+                            <img src="./img/laptop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="plugins/bootstrap-4.1.3/js/popper.min.js"></script>
+        <script src="plugins/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+        <script src="plugins/OwlCarousel2.3/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            (function () {
+                'use strict';
+
+                window.addEventListener('load', function () {
+                    var form = document.getElementById('custom-validate');
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                }, false);
+            })();
+        </script>
+        <script>
+            (function () {
+                'use strict';
+
+                window.addEventListener('load', function () {
+                    var form = document.getElementById('custom-validate-2');
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                }, false);
+            })();
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("#show_hide_password a").on('click', function (event) {
+                    event.preventDefault();
+                    if ($('#show_hide_password input').attr("type") == "text") {
+                        $('#show_hide_password input').attr('type', 'password');
+                        $('#show_hide_password #fa-eye-slash').addClass("fa-eye-slash");
+                        $('#show_hide_password #fa-eye-slash').removeClass("fa-eye");
+                    } else if ($('#show_hide_password input').attr("type") == "password") {
+                        $('#show_hide_password input').attr('type', 'text');
+                        $('#show_hide_password #fa-eye-slash ').removeClass("fa-eye-slash");
+                        $('#show_hide_password #fa-eye-slash').addClass("fa-eye");
+                    }
+                });
+            });
+        </script>
 </body>
+
 </html>

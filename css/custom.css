@@ -1,0 +1,355 @@
+/* BODY CONTENT CSS */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+/* #searchMenu.panel {
+  
+  background-color: #000032;
+}
+
+.panel form {
+  
+  width: 60%;
+  
+}
+
+.panel input {
+  width: 70%;
+  
+  border-radius: 50rem;
+  border-color: #000032;
+}
+
+.panel button {
+  border-radius: 50rem;
+  background-color: rgba(243, 184, 67, 1);
+  color: white;
+  width: 13%;
+  font-size: 0.75rem;
+  margin-left: 2rem;
+}
+
+
+#searchMenu.panel > .navbar {
+  padding-left: 5.5rem;
+}
+
+#navMenu.panel {
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/bannerBlueCover.png");
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+
+
+#navMenu.panel a {
+  color: white;
+  font-size: 0.8rem;
+  float: left;
+  margin: 1rem;
+}
+
+#navMenu.panel h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#navMenu.panel p {
+  text-align: center;
+  color: white;
+  padding-bottom: 2rem;
+  font-weight: bold;
+  margin: 0rem;
+}
+ */
+
+/**** Blue Cover Banner ****/
+.banner {
+  margin-top: 6rem;
+  background-image: url("../img/bannerBlueCover.png");
+  background-size: cover;
+  color: white;
+}
+
+.banner h1 {
+  text-align: center;
+  padding-top: 7rem;
+  font-weight: bold;
+}
+
+.banner p {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.banner span {
+  color: rgba(243, 184, 67, 1);
+}
+/***** aboutHash *****/
+
+#aboutHash.panel {
+  padding-top: 4rem;
+  background-color: #f3f9fe;
+}
+
+#aboutHash > .container {
+  padding: 0rem, 5rem, 0, 5rem;
+}
+
+#aboutHash.panel h1 {
+  text-align: center;
+  color: #000032;
+  padding-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+#aboutHash.panel p {
+  text-align: center;
+  color: #696969;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#aboutHash span {
+  color: rgba(243, 184, 67, 1);
+}
+
+/***** EXPLORE MORE *****/
+
+#exploreMore.panel {
+  padding-top: 4rem;
+}
+
+#exploreMore.panel h1 {
+  text-align: left;
+  color: #000032;
+  padding-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+#exploreMore.panel p {
+  text-align: left;
+  color: #696969;
+  padding-bottom: 4rem;
+}
+
+#exploreMore span {
+  color: rgba(243, 184, 67, 1);
+}
+
+/**** missionVision ****/
+
+#missionVision.panel {
+  padding-top: 4rem;
+}
+
+#missionVision > .container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#missionVision.panel h1 {
+  text-align: center;
+  color: #000032;
+  padding-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+#missionVision.panel p {
+  text-align: center;
+  color: #696969;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#missionVision span {
+  color: rgba(243, 184, 67, 1);
+}
+
+/**** ourApproach ****/
+
+#ourApproach.panel {
+  padding-top: 4rem;
+  background-color: #5091b9;
+}
+
+#ourApproach.panel h1 {
+  text-align: left;
+  color: white;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+#ourApproach.panel span {
+  border-color: white;
+  border-bottom-style: solid;
+  padding-bottom: 0.5rem;
+  border-width: 0.4rem;
+  color: rgba(243, 184, 67, 1);
+}
+
+#ourApproach.panel p {
+  text-align: left;
+  color: white;
+  padding-bottom: 10rem;
+  padding-top: 1rem;
+}
+
+#ourApproach.panel img {
+  padding-top: 3rem;
+}
+
+/* #footer.panel {
+  padding-top: 4rem;
+  background-color: #000032;
+  padding-right: 4rem;
+  border: 5rem;
+  border-color: red;
+}
+
+#footer.panel p {
+  color: white;
+}
+
+#footer.panel a {
+  color: white;
+}
+
+#footer.panel span {
+  font-weight: bold;
+  line-height: 6.5rem;
+}
+
+#footer.panel hr {
+  height: 5px;
+  background-color: white;
+}
+ */
+
+#mainMenu {
+  background-color: transparent;
+}
+#mainMenu ul li a {
+  color: white;
+}
+
+#mainMenu ul li:hover a,
+#mainMenu ul li.show a,
+#mainMenu ul li.active a {
+  font-weight: bold;
+  text-decoration: none;
+  border-color: white;
+}
+
+/* ********************* */
+/**** CONTACT_US css ****/
+/* ********************* */
+
+.first {
+  background-color: white; /* #eed5b7; */
+  border-right: 1px solid #cdc9c9;
+}
+
+.first h1 {
+  padding-top: 7rem;
+  color: #0a1841;
+  /*  color: #8b8989; */
+  text-align: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.first span {
+  color: rgba(243, 184, 67, 1);
+}
+
+.second {
+  background-color: white; /* #faebd7; */
+  border-right: 1px solid #cdc9c9;
+}
+
+.third {
+  background-color: #b0c4de;
+  border-right: 1px solid #cdaf95;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.5em;
+  color: #0a1841;
+}
+
+.third span {
+  color: firebrick;
+  font-size: 1.5rem;
+}
+
+.fourth {
+  background-color: white; /* #eed5b7; */
+}
+
+.fourth h1 {
+  padding-top: 6rem;
+  color: #0a1841;
+  /*  color: #8b8989; */
+  text-align: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.fourth span {
+  color: rgba(243, 184, 67, 1);
+}
+
+.fourth {
+  background-color: white; /* #eed5b7; */
+}
+
+.fifth h1 {
+  padding-top: 6rem;
+  color: #0a1841;
+  /*  color: #8b8989; */
+  text-align: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.fifth span {
+  color: rgba(243, 184, 67, 1);
+}
+
+.fifth a {
+  color: white;
+  background: #0a1841;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.sixth {
+  background-color: rgb(60, 90, 153);
+  margin-bottom: 0.5rem;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

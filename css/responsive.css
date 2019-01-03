@@ -24,6 +24,7 @@
 @media only screen and (max-width: 1199px) {
     #mainMenu ul li a {
         font-size: 14px;
+        
     }
     
 }
@@ -71,9 +72,10 @@
     /*************/
     #mainMenu {
         padding: 5px 0;
+        background-color: white;
         box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.2);
     }
-
+ 
     #mainMenu ul li:hover a, #mainMenu ul li.show a, #mainMenu ul li.active a {
         border-bottom: none;
     }
@@ -108,7 +110,21 @@
         color: #000032;
         font-weight: 600;
     }
+    #mainMenu ul li a{
+        color:#000032;
+      }
 
+    #mainMenu ul li a {
+        margin:0;
+    }
+    #mainMenu ul li a.nav-link {
+        padding:0;
+    }
+    #mainMenu ul li {
+        flex: 1;
+        text-align: center;
+        padding: 7px 0 7px 0;
+    }
     /***Slider***/
     #slider .carousel-inner .carousel-item {
         height: calc(100vh - 400px);
@@ -170,11 +186,9 @@
         display: none;
         visibility: hidden;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
-
     #slider .carousel-indicators li {
         height: 100px;
     }
@@ -202,6 +216,7 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (max-width: 575px) {
+   
     /*****Top Bar******/
     .top-bar {
         padding: 15px 0;
@@ -267,10 +282,20 @@
         padding:0;
         margin:0;
     }
-    .sm-sign-up-form-d-none{
-        display: none;
-        visibility: hidden;
+    .login-secnd-form form{
+        padding:0;
+        margin:0;
+        position: relative;
+        width: 100%;
+        
     }
+    .login-secnd-form form >*{
+        margin:2rem;
+    }
+    .login-secnd-form form .social-btn>*{
+        margin:0;
+    }
+    
     .sign-up-form {
         display: none;
         padding:2rem;
@@ -314,7 +339,11 @@
     .sign-up-div>*{
         
         padding: 0;
-        margin-left: 15rem;;
+        margin-left: 0;
+    }
+    .container-fluid{
+        padding: 0;
+        margin:0;
     }
    
 }
