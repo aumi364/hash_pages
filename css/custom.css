@@ -5,70 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-/* #searchMenu.panel {
-  
-  background-color: #000032;
-}
-
-.panel form {
-  
-  width: 60%;
-  
-}
-
-.panel input {
-  width: 70%;
-  
-  border-radius: 50rem;
-  border-color: #000032;
-}
-
-.panel button {
-  border-radius: 50rem;
-  background-color: rgba(243, 184, 67, 1);
-  color: white;
-  width: 13%;
-  font-size: 0.75rem;
-  margin-left: 2rem;
-}
-
-
-#searchMenu.panel > .navbar {
-  padding-left: 5.5rem;
-}
-
-#navMenu.panel {
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img/bannerBlueCover.png");
-  background-color: black;
-  background-repeat: no-repeat;
-}
-
-
-
-#navMenu.panel a {
-  color: white;
-  font-size: 0.8rem;
-  float: left;
-  margin: 1rem;
-}
-
-#navMenu.panel h1 {
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
-#navMenu.panel p {
-  text-align: center;
-  color: white;
-  padding-bottom: 2rem;
-  font-weight: bold;
-  margin: 0rem;
-}
- */
-
 /**** Blue Cover Banner ****/
 .banner {
   margin-top: 6rem;
@@ -80,12 +16,13 @@ body {
 .banner h1 {
   text-align: center;
   padding-top: 7rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .banner p {
   text-align: center;
   padding-bottom: 4rem;
+  margin-bottom: 0rem;
 }
 
 .banner span {
@@ -106,7 +43,7 @@ body {
   text-align: center;
   color: #000032;
   padding-bottom: 2.5rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #aboutHash.panel p {
@@ -253,96 +190,72 @@ body {
 /**** CONTACT_US css ****/
 /* ********************* */
 
+#contactUs.container {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
 .first {
   background-color: white; /* #eed5b7; */
-  border-right: 1px solid #cdc9c9;
 }
 
 .first h1 {
-  padding-top: 7rem;
-  color: #0a1841;
+  padding-top: 3rem;
+  color: #000032;
   /*  color: #8b8989; */
-  text-align: center;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
   font-weight: bold;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: italic;
 }
 
-.first span {
-  color: rgba(243, 184, 67, 1);
+.first p {
+  color: #696969;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  font-size: 1rem;
+}
+
+.head {
+  color: orange;
+}
+
+.mail {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.first a {
+  font-weight: bold;
+  color: #000032;
+}
+
+.first a:hover {
+  color: orange;
+}
+
+.first i {
+  font-weight: bold;
+  color: #000032;
+  font-size: 2rem;
+  padding-left: 3.45rem;
+}
+
+.first i:hover {
+  color: orange;
 }
 
 .second {
   background-color: white; /* #faebd7; */
-  border-right: 1px solid #cdc9c9;
-}
 
-.third {
-  background-color: #b0c4de;
-  border-right: 1px solid #cdaf95;
-  font-style: italic;
-  font-weight: bold;
-  text-align: right;
-  font-size: 1.5em;
-  color: #0a1841;
-}
-
-.third span {
-  color: firebrick;
-  font-size: 1.5rem;
-}
-
-.fourth {
-  background-color: white; /* #eed5b7; */
-}
-
-.fourth h1 {
-  padding-top: 6rem;
-  color: #0a1841;
-  /*  color: #8b8989; */
-  text-align: center;
-  font-weight: bold;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: italic;
-}
-
-.fourth span {
-  color: rgba(243, 184, 67, 1);
-}
-
-.fourth {
-  background-color: white; /* #eed5b7; */
-}
-
-.fifth h1 {
-  padding-top: 6rem;
-  color: #0a1841;
-  /*  color: #8b8989; */
-  text-align: center;
-  font-weight: bold;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: italic;
-}
-
-.fifth span {
-  color: rgba(243, 184, 67, 1);
-}
-
-.fifth a {
-  color: white;
-  background: #0a1841;
-  font-size: 2.5rem;
-  margin-top: 1rem;
-}
-
-.sixth {
-  background-color: rgb(60, 90, 153);
-  margin-bottom: 0.5rem;
+  margin-top: 12rem;
+  padding-bottom: 4rem;
 }
 
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 80%;
   position: relative;
   height: 0;
 }
