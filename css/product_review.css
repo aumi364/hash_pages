@@ -61,6 +61,12 @@ hr{
     font-size: 16px;
     padding: 12px 24px;
   }
+  .post .details .right p {
+    margin: -18px 18px 0 0;
+    float: right;
+    color: #3e3e3e;
+    font-weight: 1000;
+  }
     
   
   

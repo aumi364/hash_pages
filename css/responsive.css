@@ -100,7 +100,7 @@
     }
 
     #mainMenu ul li {
-        text-align: left;
+        text-align: center;
     }
 
     #mainMenu ul li .dropdown-menu .dropdown-item:hover,
@@ -173,8 +173,9 @@
         visibility: hidden;
     }#mainMenu ul li a{
         color:#000032;
+        text-align: center;
       }
-
+    
 }
 
 @media only screen and (max-width: 767px) {
