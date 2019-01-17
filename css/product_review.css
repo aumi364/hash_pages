@@ -15,7 +15,7 @@ hr{
     font-weight: 600;
 }
 .color_ash{
-    color:rgb(216, 214, 214);
+    color:rgb(179, 174, 174);
 }
 .header_text{
     
@@ -27,8 +27,8 @@ hr{
 }
 /* reviews */
 .post{
+   margin-bottom:1rem; 
     border-radius: 0;
-    margin: 1rem;
     box-shadow: none;
     border: 2px solid #dfe0e0;
 }
