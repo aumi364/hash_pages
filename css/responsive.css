@@ -110,21 +110,7 @@
         color: #000032;
         font-weight: 600;
     }
-    #mainMenu ul li a{
-        color:#000032;
-      }
 
-    #mainMenu ul li a {
-        margin:0;
-    }
-    #mainMenu ul li a.nav-link {
-        padding:0;
-    }
-    #mainMenu ul li {
-        flex: 1;
-        text-align: center;
-        padding: 7px 0 7px 0;
-    }
     /***Slider***/
     #slider .carousel-inner .carousel-item {
         height: calc(100vh - 400px);
@@ -185,7 +171,10 @@
     .lg-display-none{
         display: none;
         visibility: hidden;
-    }
+    }#mainMenu ul li a{
+        color:#000032;
+      }
+
 }
 
 @media only screen and (max-width: 767px) {

@@ -101,6 +101,7 @@ a:hover {
   padding: 0 8px;
   background-color: #0a1841;
   font-size: 30px;
+
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.7),
     0 0 5px 10px rgba(0, 123, 255, 0.23);
   opacity: 0.75;

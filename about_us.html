@@ -17,7 +17,7 @@
     <meta property="og:site_name" content="Reviews"/>
     <link rel="icon" href="img/favicon.png" type="image/gif">
     <!-- Place favicon.ico in the root directory -->
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icofont/icofont.min.css">
     <link rel="stylesheet" href="plugins/bootstrap-4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/OwlCarousel2.3/assets/owl.carousel.min.css">
@@ -175,12 +175,12 @@
     <div class="banner">
        <div class="container-fluid" style="background:blue"></div> 
       <h1>About us</h1>
-      <p><span>Home</span>/About us</p>
+      <p><span>Home </span> / About us</p>
        </div> 
     </div>
 
     <!-- ABOUT HASH REVIEWS -->
-
+    
     <div id="aboutHash" class="panel">
       <div class="container">
         <h1><span> About </span>Hash Reviews</h1>
@@ -265,7 +265,7 @@
     </div>
 
     <!-- /* ourApproach */ -->
-
+    <section id="scrollup">
     <div id="ourApproach" class="panel">
       <div class="container">
         <div class="row">
@@ -295,7 +295,7 @@
         </div>
       </div>
     </div>
-
+  </section>
     <!-- FOOTER -->
 
     <!-- <div id="footer" class="panel">
@@ -342,9 +342,9 @@
       </div>
 
     </div> -->
-    <a href="#aboutHash" id="toTop">
+    <a href="#slider2" id="toTop">
       <i class="icofont-rounded-up"></i>
-   </a>
+  </a>
     <footer>
       <div class="container">
         <div class="row">
@@ -411,7 +411,7 @@
           <hr />
           <div class="row">
             <div class="col-md-7">
-              <span>Designed By :</span><span>Soma Sharmin</span>
+              <span>Designed By :</span><span>Sharmin Akter Soma</span>
               <ul class="social-icon">
                 <li>
                   <a href="https://www.facebook.com/SomaSharmin" target="_blank"
@@ -434,72 +434,116 @@
       </div>
     </footer>
 
-    <!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-<script src="plugins/bootstrap-4.1.3/js/popper.min.js"></script>
-<script src="plugins/bootstrap-4.1.3/js/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2.3/owl.carousel.min.js"></script>
-
-
-<script>
-  window.onscroll = function () {
-    myFunction();
-    scroltoTopFunction();
-    scrollbottom();
-  };
-  let navbar = document.getElementById("headerSticky");
-  let el = document.getElementById("featureProducts");
-  let sticky = navbar.offsetTop + 100;
- 
-  
-
-  function scroltoTopFunction() {
-    if (window.scrollY < 200) {
-      $("#toTop").addClass("d-none");
-    } else {
-      $("#toTop").removeClass("d-none");
-    }
-  }
-  $(window).on('resize',myfunction);
-
-  function myFunction() {
-    if ( $(window).width() >=990) {
-    if (window.scrollY >= sticky) {
-      navbar.classList.add("sticky");
-      $("#mainMenu").css("background-color", "white");
-      $("#mainMenu ul li a").css("color", "#0F003C");
-    } else {
-      navbar.classList.remove("sticky");
-      $("#mainMenu").css("background-color", "transparent");
-      $("#mainMenu ul li a").css("color", "white");
-
-    }
-  } 
-  }
-
-  function scrollbottom() {
-    let hT = $("#featureProducts").offset().top,
-      hH = $("#featureProducts").outerHeight(),
-      wH = $(window).height(),
-      wS = $(this).scrollTop();
-    let ry = hT + 75 + (hH - wH);
-    if (wS > ry) {
-      $("#toTop").removeClass("fixed");
-    } else {
-      $("#toTop").addClass("fixed");
-    }
-  }
-</script>
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth', block: "end"
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="plugins/bootstrap-4.1.3/js/popper.min.js"></script>
+    <script src="plugins/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <script src="plugins/OwlCarousel2.3/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".popular-products-slider").owlCarousel({
+                nav: true,
+                autoplayHoverPause: true,
+                navText: ['<i class="icofont-long-arrow-left"></i>', '<i class="icofont-long-arrow-right"></i>'],
+                loop: true,
+                margin: 0,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    560: {
+                        items: 2,
+                    },
+                    1200: {
+                        items: 3,
+                    }
+                }
+            });
+            $(".super-reviewers").owlCarousel({
+                nav: true,
+                autoplayHoverPause: true,
+                navText: ['<i class="icofont-square-left"></i>', '<i class="icofont-square-right"></i>'],
+                loop: true,
+                margin: 25,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 3,
+                    },
+                    1200: {
+                        items: 4,
+                    }
+                }
             });
         });
-    });
-</script>
+    </script>
+    
+    <script>
+      window.onscroll = function () {
+        myFunction();
+        scroltoTopFunction();
+        scrollbottom();
+      };
+      let navbar = document.getElementById("headerSticky");
+      let el = document.getElementById("scrollup");
+      let sticky = navbar.offsetTop + 100;
+     
+      
+    
+      function scroltoTopFunction() {
+        if (window.scrollY < 200) {
+          $("#toTop").addClass("d-none");
+        } else {
+          $("#toTop").removeClass("d-none");
+        }
+      }
+      $(window).on('resize',myfunction);
+    
+      function myFunction() {
+        if ( $(window).width() >=990) {
+        if (window.scrollY >= sticky) {
+          navbar.classList.add("sticky");
+          $("#mainMenu").css("background-color", "white");
+          $("#mainMenu ul li a").css("color", "#0F003C");
+        } else {
+          navbar.classList.remove("sticky");
+          $("#mainMenu").css("background-color", "transparent");
+          $("#mainMenu ul li a").css("color", "white");
+    
+        }
+      } 
+      }
+    
+      function scrollbottom() {
+        let hT = $("#scrollup").offset().top,
+          hH = $("#scrollup").outerHeight(),
+          wH = $(window).height(),
+          wS = $(this).scrollTop();
+        let ry = hT + 75 + (hH - wH);
+        if (wS > ry) {
+          $("#toTop").removeClass("fixed");
+        } else {
+          $("#toTop").addClass("fixed");
+        }
+      }
+    </script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth', block: "end"
+                });
+            });
+        });
+    </script>
   </body>
 </html>
