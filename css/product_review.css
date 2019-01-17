@@ -1,0 +1,66 @@
+a:link,
+a:visited, 
+a:hover, 
+a:active{
+     color: white;
+}
+
+hr{
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+.color_orange {
+    color:orange;
+}
+.big_font_size{
+    font-weight: 600;
+}
+.color_ash{
+    color:rgb(216, 214, 214);
+}
+.header_text{
+    
+    margin: 15rem 0 5rem  0;
+}
+.header_text span{
+    padding:.5rem; 
+    font-weight: 500;
+}
+/* reviews */
+.post{
+    border-radius: 0;
+    margin: 1rem;
+    box-shadow: none;
+    border: 2px solid #dfe0e0;
+}
+
+.post:hover{
+   background: #edf3fd;
+}
+.feature-image{
+    transition: .5s ease;
+  }
+.post:hover .feature-image{
+    opacity: 0.3;
+  }
+.post .details .below h4{
+    color: #000032;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+  }
+  .post:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #000032;
+    color: rgb(150, 35, 35);
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+    
+  
+  
