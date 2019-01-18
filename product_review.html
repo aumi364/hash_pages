@@ -1001,7 +1001,7 @@
             let navbar = document.getElementById("headerSticky");
             let el = document.getElementById("featureProducts");
             let sticky = navbar.offsetTop + 200;
-            let stickyfilter = navbar.offsetTop + 200;
+            // let stickyfilter = navbar.offsetTop + 500;
             
         
             function scroltoTopFunction() {
@@ -1019,13 +1019,13 @@
                     navbar.classList.remove("sticky");
                 }
             }
-            function filterFunction() {
-                if (window.scrollY >= sticky) {
-                    document.getElementById("category-filter").classList.add("sticky");
-                } else {
-                    document.getElementById("category-filter").classList.remove("sticky");
-                }
-            }
+            // function filterFunction() {
+            //     if (window.scrollY >= sticky) {
+            //         document.getElementById("category-filter").classList.add("sticky");
+            //     } else {
+            //         document.getElementById("category-filter").classList.remove("sticky");
+            //     }
+            // }
         
         
             function scrollbottom() {
