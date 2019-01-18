@@ -108,6 +108,9 @@ hr{
     padding: 0 .7rem .7rem .7rem;
     
   }
+  .panel-default{
+      border-bottom: 1px solid #e0dfdb;
+  }
   .panel-body ul li a {
     color: #858482;
     font-size: .7rem;
