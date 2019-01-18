@@ -1,4 +1,12 @@
 
+.sticky{
+    position: -webkit-sticky;
+    position:sticky;
+    top:9rem;
+    opacity: 1;
+    z-index: 99999;
+    background: white;
+}
 .outer-border{
     border: 1px solid rgb(238, 238, 234);
     padding:0;
@@ -79,6 +87,8 @@ hr{
     padding-bottom: 20px;
     padding: 1rem;
     background: #edf3fd;
+    opacity: 1;
+    z-index: 99999;
     
   }
   .category-products .panel-default .panel-heading .panel-title a {

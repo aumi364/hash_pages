@@ -111,8 +111,8 @@
     <!-- product listing page starts from here-->
     <section>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-xl-3 mb-4">
+                <div class="row" style="height: 100%">
+                    <div class="col-lg-3 col-xl-3 mb-4" id="category-filter">
                         <div class="container-fluid outer-border">
                             <div class="panel-group category-products" id="accordian"><!--category-productsr-->
                                 <div class="panel panel-default">
@@ -992,6 +992,7 @@
     <script>
             window.onscroll = function () {
                 myFunction();
+                filterFunction();
                 scroltoTopFunction();
                 scrollbottom();
         
@@ -1000,6 +1001,8 @@
             let navbar = document.getElementById("headerSticky");
             let el = document.getElementById("featureProducts");
             let sticky = navbar.offsetTop + 200;
+            let stickyfilter = navbar.offsetTop + 200;
+            
         
             function scroltoTopFunction() {
                 if (window.scrollY < 200) {
@@ -1011,9 +1014,16 @@
         
             function myFunction() {
                 if (window.scrollY >= sticky) {
-                    navbar.classList.add("sticky")
+                    navbar.classList.add("sticky");
                 } else {
                     navbar.classList.remove("sticky");
+                }
+            }
+            function filterFunction() {
+                if (window.scrollY >= sticky) {
+                    document.getElementById("category-filter").classList.add("sticky");
+                } else {
+                    document.getElementById("category-filter").classList.remove("sticky");
                 }
             }
         
@@ -1026,6 +1036,7 @@
                 let ry = hT + 75 + (hH - wH);
                 if (wS > ry) {
                     $('#toTop').removeClass('fixed');
+                   
         
                 } else {
                     $('#toTop').addClass('fixed');
