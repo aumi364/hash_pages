@@ -167,9 +167,9 @@ hr {
 
 .slider.slider-horizontal {
     position: relative;
-    width: calc(100% - .8rem) !important;
+    width: calc(100% - 1.5rem) !important;
     height: 20px;
-    margin-left:.8rem;
+    margin-left: 1rem;
 
 }
 
@@ -200,8 +200,8 @@ hr {
     width: 0;
     height: 0;
     position: absolute;
-    left: .388rem;
-    bottom: -.3rem;
+    left: 20%;
+    bottom: -18%;
     border-style:solid;
     border-width:12px 20px 0 0;
     border-color:#00032f transparent  transparent transparent;
@@ -247,8 +247,8 @@ hr {
     width: 0;
     height: 0;
     position: absolute;
-    left: .3rem;
-    bottom: -.3rem;
+    left: 20%;
+    bottom: -21%;
     border-style:solid;
     border-width:0 20px 8px 0;
     border-color:transparent #00032f transparent transparent;
