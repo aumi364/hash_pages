@@ -23,9 +23,8 @@
     <link rel="stylesheet" href="plugins/OwlCarousel2.3/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -1039,51 +1038,54 @@
     </script>
     
     <script>
-            window.onscroll = function () {
-                myFunction();
-                scroltoTopFunction();
-                scrollbottom();
-        
-            };
-        
-            let navbar = document.getElementById("headerSticky");
-            let el = document.getElementById("featureProducts");
-            let sticky = navbar.offsetTop + 200;
-        
-            function scroltoTopFunction() {
-                if (window.scrollY < 200) {
-                    $('#toTop').addClass('d-none');
-                } else {
-                    $('#toTop').removeClass('d-none');
-                }
-            }
-        
-            function myFunction() {
-                if (window.scrollY >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        
-        
-            function scrollbottom() {
-                let hT = $('#featureProducts').offset().top,
-                    hH = $('#featureProducts').outerHeight(),
-                    wH = $(window).height(),
-                    wS = $(this).scrollTop();
-                let ry = hT + 75 + (hH - wH);
-                if (wS > ry) {
-                    $('#toTop').removeClass('fixed');
-        
-                } else {
-                    $('#toTop').addClass('fixed');
-        
-                }
-            }
-        
-        
-        </script>
+      window.onscroll = function () {
+        myFunction();
+        scroltoTopFunction();
+        scrollbottom();
+      };
+      let navbar = document.getElementById("headerSticky");
+      let el = document.getElementById("featureProducts");
+      let sticky = navbar.offsetTop + 100;
+     
+      
+    
+      function scroltoTopFunction() {
+        if (window.scrollY < 200) {
+          $("#toTop").addClass("d-none");
+        } else {
+          $("#toTop").removeClass("d-none");
+        }
+      }
+      $(window).on('resize',myfunction);
+    
+      function myFunction() {
+        if ( $(window).width() >=990) {
+        if (window.scrollY >= sticky) {
+          navbar.classList.add("sticky");
+          $("#mainMenu").css("background-color", "white");
+          $("#mainMenu ul li a").css("color", "#0F003C");
+        } else {
+          navbar.classList.remove("sticky");
+          $("#mainMenu").css("background-color", "transparent");
+          $("#mainMenu ul li a").css("color", "white");
+    
+        }
+      } 
+      }
+    
+      function scrollbottom() {
+        let hT = $("#featureProducts").offset().top,
+          hH = $("#featureProducts").outerHeight(),
+          wH = $(window).height(),
+          wS = $(this).scrollTop();
+        let ry = hT + 75 + (hH - wH);
+        if (wS > ry) {
+          $("#toTop").removeClass("fixed");
+        } else {
+          $("#toTop").addClass("fixed");
+        }
+      }
+    </script>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -1094,5 +1096,6 @@
             });
         });
     </script>
+    
 </body>
 </html>
