@@ -7,6 +7,9 @@
     background: white;
 } */
 
+.padding-right-0{
+   padding-right:0rem;
+}
 .outer-border {
     border: 1px solid rgb(238, 238, 234);
     padding: 0;
@@ -24,15 +27,17 @@ hr {
 }
 
 .color-orange {
-    color: orange;
+    color: #ff9a15;
+    
 }
 
 .big_font_size {
     font-weight: 600;
+    color:#000032;
 }
 
 .color-ash {
-    color: rgb(179, 174, 174);
+    color: #858482;
 }
 
 .header_text {
@@ -90,8 +95,8 @@ hr {
 .post .details .right p {
     margin: -18px 18px 0 0;
     float: right;
-    color: #3e3e3e;
-    font-weight: 1000;
+    color: #858482;
+    font-weight: 500;
 }
 
 /* category */
@@ -107,7 +112,7 @@ hr {
 }
 
 .panel-title a {
-    color: black;
+    color: #000032;
     font-size: .95rem;
     text-decoration: none;
 
@@ -115,13 +120,15 @@ hr {
 
 .price-range .panel-title {
     padding-top: 1rem;
-    color: black;
+    color: #000032;
     font-size: .95rem;
     text-decoration: none;
 
 }
+
 .price-range>*{
     padding-bottom: .5rem;
+    margin-left:.6rem;
 }
 
 .panel-title a span {
@@ -140,9 +147,9 @@ hr {
 }
 
 .panel-body ul li a {
-    color: #858482;
-    font-size: .9rem;
-    font-weight: 500;
+    
+    font-size: .8rem;
+    font-weight: 400;
     color: #858482;
     text-align: right;
     padding-left: 1.5rem;
@@ -162,7 +169,7 @@ hr {
 }
 
 .slider-wrapper .slider-selection {
-    background: orange !important;
+    background: #ff9a15 !important;
 }
 
 .slider.slider-horizontal {
@@ -228,8 +235,8 @@ hr {
     font-weight: 500;
     color: #858482;
     text-align: right;
-    padding-left: 1.3rem;
-    padding-left:1.3rem;
+    padding-left: .7rem;
+    
 }
 .starting0{
     position: absolute;
@@ -251,5 +258,16 @@ hr {
     bottom: -21%;
     border-style:solid;
     border-width:0 20px 8px 0;
-    border-color:transparent #00032f transparent transparent;
+    border-color:transparent #0e19b3 transparent transparent;
 }
+.filter-sort-by-header{
+    padding: .5rem .5rem .5rem .5rem;
+}
+#curved-border{
+    font-size :.8rem;
+    margin:0;
+  
+    border : 2px solid #bdbbb9;
+    border-radius: 30px 0 0 30px;
+    white-space: nowrap;
+  }
