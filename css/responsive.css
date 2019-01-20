@@ -206,7 +206,9 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (max-width: 575px) {
-   
+    .product-listing-navigation .container .row>:first-child{
+        margin-bottom:1rem;
+    }
     /*****Top Bar******/
     .top-bar {
         padding: 15px 0;

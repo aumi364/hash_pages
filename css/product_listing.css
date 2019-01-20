@@ -7,19 +7,13 @@
     background: white;
 } */
 
-.padding-right-0{
-   padding-right:0rem;
+.padding-right-0 {
+    padding-right: 0rem;
 }
+
 .outer-border {
     border: 1px solid rgb(238, 238, 234);
     padding: 0;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-    color: white;
 }
 
 hr {
@@ -28,12 +22,12 @@ hr {
 
 .color-orange {
     color: #ff9a15;
-    
+
 }
 
 .big_font_size {
     font-weight: 600;
-    color:#000032;
+    color: #000032;
 }
 
 .color-ash {
@@ -87,9 +81,16 @@ hr {
 
 .text {
     background-color: #000032;
-    color: rgb(150, 35, 35);
+
     font-size: 16px;
     padding: 12px 24px;
+}
+
+.text a,
+.text a:hover,
+text a:link,
+text a:visited {
+    color: white;
 }
 
 .post .details .right p {
@@ -126,9 +127,9 @@ hr {
 
 }
 
-.price-range>*{
+.price-range>* {
     padding-bottom: .5rem;
-    margin-left:.6rem;
+    margin-left: .6rem;
 }
 
 .panel-title a span {
@@ -147,14 +148,17 @@ hr {
 }
 
 .panel-body ul li a {
-    
+
     font-size: .8rem;
     font-weight: 400;
     color: #858482;
     text-align: right;
     padding-left: 1.5rem;
 }
-
+.panel-body ul li a:hover {
+    text-decoration: underline;
+    
+}
 .active-blue {
     font-weight: 1000;
     color: #000032;
@@ -190,15 +194,16 @@ hr {
 } */
 .slider.slider-horizontal:hover .tooltip.tooltip-main,
 .slider.slider-vertical:hover .tooltip.tooltip-main {
-    
+
     opacity: 1 !important;
-   
+
 }
+
 .tooltip-inner {
     position: relative;
     left: 20%;
-    background-color:#000032 ;
-    
+    background-color: #000032;
+
 }
 
 .slider.slider-horizontal:hover .tooltip.tooltip-main.top .tooltip-arrow:after,
@@ -209,9 +214,9 @@ hr {
     position: absolute;
     left: 20%;
     bottom: -18%;
-    border-style:solid;
-    border-width:12px 20px 0 0;
-    border-color:#00032f transparent  transparent transparent;
+    border-style: solid;
+    border-width: 12px 20px 0 0;
+    border-color: #00032f transparent transparent transparent;
 }
 
 
@@ -229,70 +234,101 @@ hr {
     /* Safari 3-8 */
     transform: rotate(90deg);
 }
-.fill-control-description{
+
+.fill-control-description {
     color: #858482;
     font-size: .9rem;
     font-weight: 500;
     color: #858482;
     text-align: right;
     padding-left: .7rem;
-    
+
 }
-.starting0{
+
+.starting0 {
     position: absolute;
     color: white;
-    text-align:center;
-    left:3%;
-    top:25%;
+    text-align: center;
+    left: 3%;
+    top: 25%;
     border-radius: 10%;
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
     background: #000032;
 }
-.starting0:after{
+
+.starting0:after {
     content: '';
     width: 0;
     height: 0;
     position: absolute;
     left: 20%;
     bottom: -21%;
-    border-style:solid;
-    border-width:0 20px 8px 0;
-    border-color:transparent #000032 transparent transparent;
+    border-style: solid;
+    border-width: 0 20px 8px 0;
+    border-color: transparent #000032 transparent transparent;
 }
-.filter-sort-by-header{
+
+.filter-sort-by-header {
     padding: .5rem .5rem .5rem .5rem;
 }
-#curved-border{
-    font-size :.8rem;
-    margin:0;
-  
-    border : 2px solid #bdbbb9;
+
+#curved-border {
+    font-size: .8rem;
+    margin: 0;
+
+    border: 2px solid #bdbbb9;
     border-radius: 30px 30px 30px 30px;
     white-space: nowrap;
-  }
-  .custom-select-div{
-      margin-top:1rem;
-      margin-bottom:1rem;
+}
 
-  }
-  .rating-star{
-      position: absolute;
-      width:50px;
-      height:30px;
-      left:5.6%;
-      top:2%;
-      background: #000032;
-      color: white;
-      text-align: center;
-      padding-top:.2rem;
-      font-weight: 600;
-  }
-  .star{
-      position: relative;
-      top:-30%;
-  }
-  .star .icofont-star{
-      
-      font-size:6px;
-    }
+.custom-select-div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.rating-star {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 5.6%;
+    top: 2%;
+    background: #000032;
+    color: white;
+    text-align: center;
+    padding-top: .2rem;
+    font-weight: 600;
+}
+
+.star {
+    position: relative;
+    top: -30%;
+}
+
+.star .icofont-star {
+
+    font-size: 6px;
+}
+.product-listing-navigation{
+    margin: 1rem 0rem 1rem 0rem;
+}
+.pagination li a.page-link{
+    border:0;
+    color:#858482;
+}
+.pagination li.active a.page-link{
+    border:0;
+    color:#858482;
+    font-size: 1.5rem;
+    bottom:20%;
+    font-weight: 500;
+    background: white;
+    text-decoration: underline;
+}
+.pagination-arrow{
+    position: absolute;
+}
+#pagination-result{
+    color:#858482
+}
