@@ -276,3 +276,23 @@ hr {
       margin-bottom:1rem;
 
   }
+  .rating-star{
+      position: absolute;
+      width:50px;
+      height:30px;
+      left:5.6%;
+      top:2%;
+      background: #000032;
+      color: white;
+      text-align: center;
+      padding-top:.2rem;
+      font-weight: 600;
+  }
+  .star{
+      position: relative;
+      top:-30%;
+  }
+  .star .icofont-star{
+      
+      font-size:6px;
+    }
