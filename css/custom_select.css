@@ -25,7 +25,7 @@
   display: none;
 }
 .dropdown-el label {
-  border-top: .06em solid #d9d9d9;
+  border: 0;
   display: block;
   height: 2em;
   line-height: 2em;
@@ -42,13 +42,14 @@
 }
 .dropdown-el input:checked + label {
   display: block;
-  border-top: none;
+  border: 0;
   position: absolute;
   top: 0;
 }
 .dropdown-el input:checked + label:nth-child(2) {
   margin-top: 0;
   position: relative;
+  border:0;
 }
 .dropdown-el::after {
   content: "";
@@ -74,8 +75,10 @@
 }
 .dropdown-el.expanded input:not(:checked) + label {
   color: #000032;
+  
 }
 .dropdown-el.expanded::after {
   transform: rotate(-180deg);
   top: .55em;
+  
 }
