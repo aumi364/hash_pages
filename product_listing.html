@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-lg-3 col-xl-3 mb-4" id="category-filter">
                     <div class="container-fluid outer-border">
-
+                        <!-- collapse filter -->
                         <div class="panel-group category-products" id="accordian">
                             <!--category-productsr-->
                             <div class="custom-select-div">
@@ -207,8 +207,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--price-range-->
                             <div class="price-range">
-                                <!--price-range-->
+                                
                                 <h4 class="panel-title">Price Range </h4>
                                 <label class="custom-control fill-checkbox">
                                     <input type="checkbox" class="fill-control-input">
@@ -240,14 +241,14 @@
 
 
                             </div>
-                            <!--/price-range-->
+                            <!--price-range-->
 
                         </div>
                     </div>
                 </div>
+                <!-- cards -->
                 <div class="col-lg-9 col-xl-9">
-
-                    <!-- Set up your HTML -->
+  
                     <div class="row">
                         <div class="col-sm-6 col-lg-6 col-xl-4">
                             <div class="post">
@@ -1129,7 +1130,7 @@
     <script src="plugins/bootstrap-4.1.3/js/popper.min.js"></script>
     <script src="plugins/bootstrap-4.1.3/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
-    <Script src="plugins/pagination/pagination.js"></Script>
+    <script src="plugins/pagination/pagination.js"></script>
 
 
     <script>
@@ -1203,7 +1204,8 @@
             });
         });
     </script>
-    <!-- range slider -->
+    <!-- new script starts from here -->
+    <!-- collapse panel script -->
     <script type="text/javascript">
         $(document).ready(function () {
 
@@ -1218,8 +1220,9 @@
                 $(this).parent().find('.panel-title a').css('color', 'black');
             });
 
-        }); // End of document ready
+        }); 
     </script>
+    <!-- data slider script -->
     <script>
         (function ($) {
             $(document).ready(function () {
@@ -1251,6 +1254,7 @@
             });
         })(jQuery);
     </script>
+    <!-- filter dropdown srcipt -->
     <script>
         $('.dropdown-el').click(function (e) {
             e.preventDefault();
@@ -1262,6 +1266,7 @@
             $('.dropdown-el').removeClass('expanded');
         });
     </script>
+    <!-- pagination  srcipt -->
     <script type="text/javascript">
         $(function () {
             window.pagObj = $('#pagination').twbsPagination({
