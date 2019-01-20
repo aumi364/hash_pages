@@ -365,7 +365,7 @@
   left: 1.25rem;
 }
 
-.styled-select {
+/* .styled-select {
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
@@ -388,11 +388,10 @@ select:focus {
   border: none;
 
   /*hide default down arrow in webkit */
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
 }
 .styled-select option{
-  background: #edf3fd;
-  border:0;
+  background: #26a69a;
 }
 
 @-moz-document url-prefix() {
@@ -405,4 +404,4 @@ select:focus {
   top: 20%;
   right: 0;
   font-size: 24px;
-}
+}  */

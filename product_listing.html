@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/product_listing.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom_checkbox.css">
+    <link rel="stylesheet" href="css/custom_select.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
     <!-- npm link https://www.npmjs.com/package/bootstrap-slider -->
@@ -124,29 +125,23 @@
             <div class="row">
                 <div class="col-lg-3 col-xl-3 mb-4" id="category-filter">
                     <div class="container-fluid outer-border">
-                        
+
                         <div class="panel-group category-products" id="accordian">
                             <!--category-productsr-->
-                            <div class="row" id="curved-border">
-                                <div class="col-3 col-md-6 col-lg-3">
-                                    <div class="filter-sort-by-header">Sort by :  </div>
-                                </div>
-                                <div class="col-9 col-md-6 col-lg-9 padding-right-0">
-                                        <div class="styled-select">
-                                                <select>
-                                                  <option>Popular Item</option>
-                                                  <option>New Arrival</option>
-                                                  
-                                                </select>
-                                              
-                                             </div>
-                                </div>
-                                
+                            <div class="custom-select-div">
+                                    <span class="dropdown-el">
+                                            <input type="radio" name="sortType" value="Relevance" checked="checked" id="sort-relevance"><label
+                                                for="sort-relevance">New Arrival</label>
+                                            <input type="radio" name="sortType" value="Popularity" id="sort-best"><label for="sort-best">Popular
+                                                Item</label>
+                                        </span>
                             </div>
+
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordian" data-target="#uses_area" href="javascript:void(0);">
+                                        <a data-toggle="collapse" data-parent="#accordian" data-target="#uses_area"
+                                            href="javascript:void(0);">
                                             <span><i class="icofont-caret-right"></i></span>
                                             Uses area
                                         </a>
@@ -232,7 +227,7 @@
                                 </label>
 
                                 <div class="row">
-                                    
+
                                     <div class="col-md-12">
                                         <div class="slider-wrapper" style="margin-top: 50px;">
                                             <span class="starting0">0</span>
@@ -1081,7 +1076,7 @@
                 navbar.classList.remove("sticky");
             }
         }
-        
+
         function scrollbottom() {
             let hT = $('#featureProducts').offset().top,
                 hH = $('#featureProducts').outerHeight(),
@@ -1170,6 +1165,17 @@
 
             });
         })(jQuery);
+    </script>
+    <script>
+        $('.dropdown-el').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $(this).toggleClass('expanded');
+            $('#' + $(e.target).attr('for')).prop('checked', true);
+        });
+        $(document).click(function () {
+            $('.dropdown-el').removeClass('expanded');
+        });
     </script>
 
 </body>
