@@ -45,14 +45,14 @@ hr {
 }
 
 /* reviews */
-.post {
+.product-listing-post-square-card .post {
     margin-bottom: 1rem;
     border-radius: 0;
     box-shadow: none;
     border: 2px solid #dfe0e0;
 }
 
-.post:hover {
+.product-listing-post-square-card .post:hover {
     background: #edf3fd;
 }
 
@@ -60,11 +60,11 @@ hr {
     transition: .5s ease;
 }
 
-.post:hover .feature-image {
+.product-listing-post-square-card .post:hover .feature-image {
     opacity: 0.3;
 }
 
-.post .details .below h4 {
+.product-listing-post-square-card .post .details .below h4 {
     color: #000032;
 }
 
@@ -75,7 +75,7 @@ hr {
     cursor: pointer;
 }
 
-.post:hover .middle {
+.product-listing-post-square-card .post:hover .middle {
     opacity: 1;
 }
 
@@ -93,7 +93,7 @@ text a:visited {
     color: white;
 }
 
-.post .details .right p {
+.product-listing-post-square-card .post .details .right p {
     margin: -18px 18px 0 0;
     float: right;
     color: #858482;
