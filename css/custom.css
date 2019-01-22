@@ -386,3 +386,33 @@ span.rating .reviews li img{
 h4.ratingText{
  font-size: 1.1rem;
 }
+/*comment card*/
+.reviewer-comment-card>*:not(:last-child){
+ margin-bottom: 2rem;
+}
+.profile-comment-image img {
+  width: auto;
+  margin: auto;
+  max-width: 100px;
+  max-height: 100%;
+}
+.details{
+  padding-left:2rem;
+}
+.morecontent span {
+  display: none;
+}
+.more{
+  color: #696969;
+}
+.morelink {
+  display: block;
+}
+a.morelink{
+  padding-top:2rem;
+  color: #696969;
+}
+.comment-card-product-name h4{
+  font-weight: 1000;
+  color: #009dff;
+}
