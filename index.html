@@ -24,7 +24,13 @@
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
     
+  
+    <link rel="stylesheet" href="css/product_listing.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom_checkbox.css">
+    <link rel="stylesheet" href="css/custom_select.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css">
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -1059,19 +1065,12 @@
       $(window).on('resize',myFunction);
     
       function myFunction() {
-        if ( $(window).width() >=990) {
-        if (window.scrollY >= sticky) {
-          navbar.classList.add("sticky");
-          $("#mainMenu").css("background-color", "white");
-          $("#mainMenu ul li a").css("color", "#0F003C");
-        } else {
-          navbar.classList.remove("sticky");
-          $("#mainMenu").css("background-color", "transparent");
-          $("#mainMenu ul li a").css("color", "white");
-    
+            if (window.scrollY >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
-      } 
-      }
     
       function scrollbottom() {
         let hT = $("#featureProducts").offset().top,

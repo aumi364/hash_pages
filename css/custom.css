@@ -416,3 +416,14 @@ a.morelink{
   font-weight: 1000;
   color: #009dff;
 }
+.see-more-text{
+  color: #696969;
+}
+.reviewer-comment-card div .post{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.reviewer-comment-card div .post:hover{
+  background-color: #f3f9fe;
+  border-color: #6473a0;
+}
