@@ -132,6 +132,17 @@
     #slider .carousel-indicators li {
         display: inline-block;
     }
+    #mainMenu ul li a {
+        margin:0;
+    }
+    #mainMenu ul li a.nav-link {
+        padding:0;
+    }
+    #mainMenu ul li {
+        flex: 1;
+        text-align: center;
+        padding: 7px 0 7px 0;
+    }
 
     /***Slider2***/
     #slider .carousel-inner .carousel-item {
