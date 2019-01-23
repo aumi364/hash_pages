@@ -379,9 +379,8 @@ body {
 }
 
 span.rating .reviews li img{
-  margin: .1rem;
-  height:20px;
-  width: 20px;
+  transform: scale(1.5);
+  margin: .3rem;
 }
 h4.ratingText{
  font-size: 1.1rem;
@@ -416,7 +415,7 @@ a.morelink{
   font-weight: 1000;
   color: #009dff;
 }
-.see-more-text{
+.see-more-text a{
   color: #696969;
 }
 .reviewer-comment-card div .post{
