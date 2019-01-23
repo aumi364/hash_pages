@@ -426,3 +426,7 @@ a.morelink{
   background-color: #f3f9fe;
   border-color: #6473a0;
 }
+body.modal-open {
+  overflow: inherit;
+  padding-right: 0 !important;
+}
