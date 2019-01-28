@@ -29,6 +29,7 @@ body {
 .banner span {
   color: rgba(243, 184, 67, 1);
 }
+
 /***** aboutHash *****/
 
 #aboutHash.panel {
@@ -36,7 +37,7 @@ body {
   background-color: #f3f9fe;
 }
 
-#aboutHash > .container {
+#aboutHash>.container {
   padding: 0rem, 5rem, 0, 5rem;
 }
 
@@ -88,7 +89,7 @@ body {
   padding-top: 4rem;
 }
 
-#missionVision > .container {
+#missionVision>.container {
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -175,6 +176,7 @@ body {
 #mainMenu {
   background-color: transparent;
 }
+
 #mainMenu ul li a {
   color: white;
 }
@@ -197,7 +199,8 @@ body {
 }
 
 .first {
-  background-color: white; /* #eed5b7; */
+  background-color: white;
+  /* #eed5b7; */
 }
 
 .first h1 {
@@ -248,7 +251,8 @@ body {
 }
 
 .second {
-  background-color: white; /* #faebd7; */
+  background-color: white;
+  /* #faebd7; */
 
   margin-top: 12rem;
   padding-bottom: 4rem;
@@ -260,6 +264,7 @@ body {
   position: relative;
   height: 0;
 }
+
 .map-responsive iframe {
   left: 0;
   top: 0;
@@ -277,11 +282,12 @@ body {
   padding-bottom: 2rem;
 }
 
-#profile.container > .row {
+#profile.container>.row {
   margin-left: 1.5rem;
   margin-right: 1rem;
   margin-top: 6rem;
 }
+
 .third {
   margin: 0;
   padding: 0;
@@ -364,7 +370,7 @@ body {
   border-radius: 1rem;
 } */
 
-#itemCard > .row {
+#itemCard>.row {
   border: 2px solid black;
   border-radius: 1rem;
 }
@@ -378,67 +384,82 @@ body {
   padding-left: 2rem;
 }
 
-span.rating .reviews li img{
+span.rating .reviews li img {
   transform: scale(1.5);
   margin: .3rem;
 }
-h4.ratingText{
- font-size: 1.1rem;
+
+h4.ratingText {
+  font-size: 1.1rem;
 }
+
 /*comment card*/
-.reviewer-comment-card>*:not(:last-child){
- margin-bottom: 2rem;
+.reviewer-comment-card>*:not(:last-child) {
+  margin-bottom: 2rem;
 }
+
 .profile-comment-image img {
   width: auto;
   margin: auto;
   max-width: 100px;
   max-height: 100%;
 }
-.details{
-  padding-left:2rem;
+
+.details {
+  padding-left: 2rem;
 }
+
 .morecontent span {
   display: none;
 }
-.more{
+
+.more {
   color: #696969;
 }
+
 .morelink {
   display: block;
 }
-a.morelink{
-  padding-top:2rem;
+
+a.morelink {
+  padding-top: 2rem;
   color: #696969;
 }
-.comment-card-product-name h4{
+
+.comment-card-product-name h4 {
   font-weight: 1000;
   color: #009dff;
 }
-.see-more-text a{
+
+.see-more-text a {
   color: #696969;
 }
-.reviewer-comment-card div .post{
+
+.reviewer-comment-card div .post {
   transition: all 0.5s;
-  
-  
+
+
 }
-.reviewer-comment-card div .post:hover{
+
+.reviewer-comment-card div .post:hover {
   background-color: #f3f9fe;
   border-color: #6473a0;
 }
 
 /* Important part */
-.fade{
+.fade {
   z-index: 999999;
 }
-.modal.show.fade{
+
+.modal.show.fade {
   z-index: 9999999;
 }
-.modal-dialog{
+
+.modal-dialog {
   overflow-y: initial !important
 }
-.modal-body{
+
+.modal-body {
   max-height: calc(100vh - 20rem);
   overflow-y: auto;
 }
@@ -446,4 +467,89 @@ a.morelink{
 body.modal-open {
   overflow: inherit;
   padding-right: 0 !important;
+}
+
+/* modal customizing */
+
+.modal-footer {
+  border: 0;
+}
+
+/* stars */
+
+fieldset,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating>input {
+  display: none;
+}
+
+.rating>label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 1000;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating>.half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating>label {
+  color: #ddd;
+  float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating>input:checked~label,
+/* show gold star when clicked */
+.rating:not(:checked)>label:hover,
+/* hover current star */
+.rating:not(:checked)>label:hover~label {
+  color: rgba(243, 184, 67, 1);
+}
+
+/* hover previous stars in list */
+
+.rating>input:checked+label:hover,
+/* hover current star when changing rating */
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+/* lighten current selection */
+.rating>input:checked~label:hover~label {
+  color: rgba(243, 184, 67, 1);
+}
+
+/* modal footer h5 */
+.modal-footer>h5 {
+  position: relative;
+  top: 3px;
+  color: #696969;
+}
+
+.modal-footer>span {
+  color: #696969;
 }
