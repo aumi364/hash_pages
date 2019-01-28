@@ -553,3 +553,13 @@ h1 {
 .modal-footer>span {
   color: #696969;
 }
+
+.modal-body .reviewer-profile div>img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.modal-profile p.ratingText {
+  margin-left: .6rem;
+}
