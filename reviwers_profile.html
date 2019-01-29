@@ -113,31 +113,34 @@
   </header>
   <section>
     <div class="banner" id="bannerID">
-      <div class="container-fluid" style="background:blue"></div>
+      
       <h1>Reviewer's Profile</h1>
       <p><span>Home</span> / Reviewer's Profile</p>
     </div>
 
     <div id="profile" class="container">
       <div class="row">
-        <div class="third col-xl-8">
-          <img src="img/profilePic.jpg" width="100%" />
+        <div class="third col-xl-8 d-flex justify-content-center">
+          <img src="img/profilePic.jpg" />
         </div>
         <div class="fourth col-xl-4">
           <span class="blue">
             <h3>John Doe</h3>
           </span>
           <h4>Product Reviewer</h4>
-          <span class="rating d-flex justify-content-center">
-            <ul class="reviews ml-3 mt-1">
-              <li><img src="img/star.png" alt="star"></li>
-              <li><img src="img/star.png" alt="star"></li>
-              <li><img src="img/star.png" alt="star"></li>
-              <li><img src="img/star.png" alt="star"></li>
-              <li><img src="img/star.png" alt="star"></li>
-            </ul>
-            <h4 class="ratingText">(4.5)</h4>
-          </span>
+          <div class="d-flex justify-content-center">
+            <span class="rating d-flex justify-content-center">
+              <ul class="reviews ml-3 mt-1">
+                <li><img src="img/star.png" alt="star"></li>
+                <li><img src="img/star.png" alt="star"></li>
+                <li><img src="img/star.png" alt="star"></li>
+                <li><img src="img/star.png" alt="star"></li>
+                <li><img src="img/star.png" alt="star"></li>
+              </ul>
+              <h4 class="ratingText">(4.5)</h4>
+            </span>
+          </div>
+          
           <h4>(159 Reviews)</h4>
           <hr />
           <span class="peopleRate">
@@ -212,17 +215,17 @@
                                 <div class="modal-content">
       
                                   <!-- Modal Header -->
-                                  <div class="modal-header">
-                                    <h4 class="modal-title">Modal Heading</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <div class="modal-header d-flex justify-content-end">
+                                    
+                                    <button type="button" class="close" data-dismiss="modal"><i class="icofont-close"></i></button>
                                   </div>
       
                                   <!-- Modal body -->
                                   <div class="modal-body">
                                       <div class="reviewer-profile">
-                                          <div class="col-md-5">
+                                          <div class="col-lg-5">
                                               <img src="img/profilePic.jpg">
-                                              <span class="modal-profile d-flex">
+                                              <span class="modal-profile-rating d-flex mt-3">
                                                   <ul class="reviews  mt-1">
                                                     <li><img src="img/star.png" alt="star"></li>
                                                     <li><img src="img/star.png" alt="star"></li>
@@ -231,12 +234,17 @@
                                                     <li><img src="img/star.png" alt="star"></li>
                                                   </ul>
                                                   <p class="ratingText">(4.5)</p>
+                                              
                                                 </span>
+                                                <div class="modal-super-reviewer-name">
+                                                  John Doe
+                                                </div>
+                                                <p class="d-inline-block">Interest : Travelling, Bike Riding, Photography</p>
                                               
                                                 
                                           </div>
                                           
-                                          <div class="col-md-7">
+                                          <div class="col-lg-7">
 
                                           </div>
                                       </div>
@@ -259,9 +267,7 @@
                                   </fieldset>
                                    <span>(4.5)</span>
                                   </div>
-                                  <div>
-                                    <i class="icofont-arrow-down" style="position: absolute;"></i>
-                                  </div>
+                                
       
                                 </div>
                               </div>
@@ -948,7 +954,7 @@
       });
     });
   </script> -->
-  activating
+  <!-- activating -->
   <script>
     // $("#myModal").modal();
   </script>

@@ -37,7 +37,7 @@ body {
   background-color: #f3f9fe;
 }
 
-#aboutHash>.container {
+#aboutHash > .container {
   padding: 0rem, 5rem, 0, 5rem;
 }
 
@@ -89,7 +89,7 @@ body {
   padding-top: 4rem;
 }
 
-#missionVision>.container {
+#missionVision > .container {
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -282,7 +282,7 @@ body {
   padding-bottom: 2rem;
 }
 
-#profile.container>.row {
+#profile.container > .row {
   margin-left: 1.5rem;
   margin-right: 1rem;
   margin-top: 6rem;
@@ -364,13 +364,17 @@ body {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+#profile div .third img {
+  max-width: 100%;
+  max-height: 30rem;
+}
 
 /* .card_one > .container {
   border: 2px solid black;
   border-radius: 1rem;
 } */
 
-#itemCard>.row {
+#itemCard > .row {
   border: 2px solid black;
   border-radius: 1rem;
 }
@@ -386,7 +390,7 @@ body {
 
 span.rating .reviews li img {
   transform: scale(1.5);
-  margin: .3rem;
+  margin: 0.3rem;
 }
 
 h4.ratingText {
@@ -394,7 +398,7 @@ h4.ratingText {
 }
 
 /*comment card*/
-.reviewer-comment-card>*:not(:last-child) {
+.reviewer-comment-card > *:not(:last-child) {
   margin-bottom: 2rem;
 }
 
@@ -437,8 +441,6 @@ a.morelink {
 
 .reviewer-comment-card div .post {
   transition: all 0.5s;
-
-
 }
 
 .reviewer-comment-card div .post:hover {
@@ -447,6 +449,9 @@ a.morelink {
 }
 
 /* Important part */
+#myModal.modal {
+  padding-right: 0 !important;
+}
 .fade {
   z-index: 999999;
 }
@@ -456,7 +461,7 @@ a.morelink {
 }
 
 .modal-dialog {
-  overflow-y: initial !important
+  overflow-y: initial !important;
 }
 
 .modal-body {
@@ -470,9 +475,54 @@ body.modal-open {
 }
 
 /* modal customizing */
-
+.modal-header {
+  border: 0;
+  padding: 0;
+}
+.modal-header button.close {
+  padding: 0.5rem;
+  margin: 0;
+  margin-right: 1rem;
+  font-weight: 1000;
+}
+.modal-header .close i.icofont-close {
+  font-size: 1rem;
+  font-weight: 1000;
+}
 .modal-footer {
   border: 0;
+}
+/* modal footer h5 */
+.modal-footer > h5 {
+  position: relative;
+  top: 3px;
+  color: #696969;
+}
+
+.modal-footer > span {
+  color: #696969;
+}
+.modal-body {
+  padding-top: 0;
+}
+.modal-body .reviewer-profile div > img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
+.modal-profile-rating p.ratingText {
+  margin-left: 0.6rem;
+}
+.modal-content {
+  border: 0;
+  border-radius: 0;
+}
+.modal-super-reviewer-name {
+  color: #000032;
+  font-size: 1.2rem;
+  text-shadow: 1px 0 #000032;
+  font-weight: 870;
 }
 
 /* stars */
@@ -483,15 +533,6 @@ label {
   padding: 0;
 }
 
-body {
-  margin: 20px;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin: 10px;
-}
-
 /****** Style Star Rating Widget *****/
 
 .rating {
@@ -499,11 +540,11 @@ h1 {
   float: left;
 }
 
-.rating>input {
+.rating > input {
   display: none;
 }
 
-.rating>label:before {
+.rating > label:before {
   margin: 5px;
   font-size: 1.25em;
   font-family: "Font Awesome 5 Free";
@@ -512,17 +553,15 @@ h1 {
   content: "\f005";
 }
 
-.rating>.half:before {
+.rating > .half:before {
   content: "\f089";
   position: absolute;
 }
 
-.rating>label {
+.rating > label {
   color: #ddd;
   float: right;
 }
-
-/***** CSS Magic to Highlight Stars on Hover *****/
 
 .rating>input:checked~label,
 /* show gold star when clicked */
@@ -541,25 +580,4 @@ h1 {
 /* lighten current selection */
 .rating>input:checked~label:hover~label {
   color: rgba(243, 184, 67, 1);
-}
-
-/* modal footer h5 */
-.modal-footer>h5 {
-  position: relative;
-  top: 3px;
-  color: #696969;
-}
-
-.modal-footer>span {
-  color: #696969;
-}
-
-.modal-body .reviewer-profile div>img {
-  width: 9rem;
-  height: 9rem;
-  border-radius: 50%;
-}
-
-.modal-profile p.ratingText {
-  margin-left: .6rem;
 }
