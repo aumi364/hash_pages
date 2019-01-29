@@ -466,9 +466,12 @@ a.morelink {
 
 .modal-body {
   max-height: calc(100vh - 20rem);
-  overflow-y: auto;
+  overflow: auto;
 }
-
+#modal-reviewer-comment {
+  height: calc(100vh - 25rem);
+  overflow: inherit;
+}
 body.modal-open {
   overflow: inherit;
   padding-right: 0 !important;
@@ -486,7 +489,7 @@ body.modal-open {
   font-weight: 1000;
 }
 .modal-header .close i.icofont-close {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 1000;
 }
 .modal-footer {
@@ -546,9 +549,9 @@ label {
 
 .rating > label:before {
   margin: 5px;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: "Font Awesome 5 Free";
-  font-weight: 1000;
+  font-weight: bolder;
   display: inline-block;
   content: "\f005";
 }
