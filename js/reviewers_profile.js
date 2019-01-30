@@ -25,3 +25,45 @@ $(document).ready(function() {
     }
   });
 });
+//  for minimizing the inner text of modal
+// $(document).ready(function () {
+//   // Configure/customize these variables.
+//   var showChar = 100; // How many characters are shown by default
+//   var ellipsestext = "...";
+//   var moretext = "READ MORE";
+
+//   var content;
+
+//   $('.more').each(function () {
+//     content = $(this).html();
+
+//     if (content.length > showChar) {
+
+//       var c = content.substr(0, showChar);
+//       //console.log('c '+c);
+//       var h = content.substr(showChar, content.length - showChar);
+//       console.log('h'+h);
+
+//       var html = c + '<span class="moreellipses">' + ellipsestext +
+//         '&nbsp;</span><span class="morecontent"><span>' + h +
+//         '</span>&nbsp;&nbsp;<a href="" class="morelink" data-toggle="modal" data-target="#myModal">' + moretext + '</a></span>';
+
+//       $(this).html(html);
+//     }
+
+//   });
+
+//   $(".morelink").click(function () {
+//     if ($(this).hasClass("less")) {
+//       $(this).removeClass("less");
+
+//     } else {
+//       $("#myModal").modal();
+//       $(this).addClass("less");
+
+//     }
+
+//     return false;
+
+//   });
+// });
