@@ -597,6 +597,7 @@ label {
   border: 0.5px solid #b8b6b6;
   box-shadow: none;
   border-radius: 5px;
+  margin: auto;
 }
 .modal-product-slider .post .feature-image {
   width: 100%;
@@ -612,4 +613,7 @@ label {
   text-align: center;
   font-size: 1.5rem;
   color: #696969;
+}
+.modal-super-reviewer-full-comment h3 {
+  font-style: italic;
 }
