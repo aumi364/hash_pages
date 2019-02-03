@@ -14,7 +14,9 @@
   height: 100%;
 }
 
-
+#mainMenu ul li {
+  padding: 0;
+}
 .padding-none {
   padding: 0;
 }
@@ -144,33 +146,33 @@ input[type="color"]:focus,
 
 }
 .go_to_sign_up_now_column{
-    
-    background:linear-gradient(rgba(0,11,62,.9),rgba(5, 14, 56,.9)),url("../img/review_signupnow_image.png") right;
-    background-repeat: no-repeat;
-    background-size:cover;
-    color: white;
+  
+  background:linear-gradient(rgba(0,11,62,.9),rgba(5, 14, 56,.9)),url("../img/review_signupnow_image.png") right;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: white;
 }
 .sign-in-div{
-    height: 731px;
-    width:381px;
-    background-color: red;
+  height: 731px;
+  width:381px;
+  background-color: red;
 }
 .sign-in-div>*{
-    padding: 2rem;
+  padding: 2rem;
 }
 .not_a_member{
-    
+  
 
 }
 .log-in-button-background-color{
-    background-color: #f9b41f;
-    color:rgba(0,11,62,.9);
-    border-radius: 0px;
-    width:22rem;
+  background-color: #f9b41f;
+  color:rgba(0,11,62,.9);
+  border-radius: 0px;
+  width:22rem;
 
 } */
 .sign-up-form {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 11, 62, 0.9), rgba(5, 14, 56, 0.9)),
     url("../img/review_signupnow_image.png") right;
@@ -256,7 +258,7 @@ input[type="color"]:focus,
   border-radius: 0;
 }
 #sign-in-span {
-  margin: 0.5rem;
+  margin: 0 0.5rem;
   color: white;
   display: inline;
   border-bottom: 1px solid white;

@@ -203,6 +203,12 @@
     visibility: hidden;
   }
 }
+@media only screen and (max-height: 991px) {
+  #sign-up {
+    overflow-y: hidden;
+    margin: 0;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   #slider .carousel-indicators li {
