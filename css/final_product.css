@@ -1,0 +1,158 @@
+.btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+#final_product_page {
+    margin: 12.5rem 0 5rem 0;
+}
+
+#final_product_featured_products {
+    height: 50vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.final_product_header h3 {
+    color: #000032;
+    font-weight: 600;
+}
+
+.final_product_login p {
+    color: #858482;
+    font-weight: 600;
+}
+
+.final_product_login p span {
+    color: #df4930;
+    cursor: pointer;
+}
+
+.final_product_login .d-flex.social-btn a.btn {
+    width: 8rem;
+    border-radius: 0;
+    margin-right: .3rem;
+}
+
+.final_product_login .d-flex.social-btn a.btn.btn-primary {
+    background: #507cc0;
+}
+
+.final_product_login .d-flex.social-btn a.btn.btn-danger {
+    background: #df4930;
+}
+
+.btn.btn-orange {
+    width: 12rem;
+    background: #ff9a15;
+    color: white;
+    border-radius: 0;
+
+}
+
+textarea {
+    resize: none;
+}
+
+textarea.form-control {
+    border-radius: 0;
+}
+
+textarea::placeholder {
+    font-style: italic;
+}
+
+
+.final_product_comments {
+    position: relative;
+}
+
+.final_product_comments .comment_counts {
+    position: relative;
+    border-bottom: 1px solid #d6d5d4;
+
+}
+
+.final_product_comments .comment_counts span h6 {
+    position: absolute;
+    top: -.5rem;
+    padding-right: .5rem;
+    background: white;
+    color: #858482;
+
+}
+
+.comment_none {
+    display: none;
+}
+
+.comment_card {
+    border-bottom: 1px solid #d6d5d4;
+    padding-bottom: 1rem;
+}
+
+.comment_card .row>div {
+    margin-right: .5rem;
+}
+
+
+.comment_card_picture img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.comment_card_content_header h5 {
+    color: #1a2b3c;
+    font-weight: 500;
+}
+
+button.btn.btn-like,
+button.btn.btn-report {
+
+    background: transparent;
+}
+
+.report {
+    color: red;
+}
+
+.like {
+    color: #f0a30b;
+}
+
+button.btn.btn-like,
+button.btn.btn-report,
+.comment_card_content_body .d-flex p {
+    font-size: .7rem;
+    color: #858482;
+}
+
+.like_report_btn .d-flex {
+
+    position: relative;
+    top: -4px;
+    right: 0;
+
+}
+
+.comment_card_content_body p {
+    font-size: .9rem;
+    color: #6b6a69;
+}
+
+.comment_see_more {
+
+    margin-bottom: 1rem;
+}
+
+
+
+.final_product_comments button.btn-see-more {
+    margin: 1.25rem;
+    background: white;
+    color: #6b6a69;
+    border-radius: 0;
+    border-bottom: 1px solid #d6d5d4;
+    padding: 0;
+}
