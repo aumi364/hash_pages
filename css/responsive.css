@@ -416,3 +416,46 @@
     overflow: inherit;
   }
 }
+
+@media only screen and (max-width: 465px) {
+  .super_reviewer_card {
+
+    height: 18rem;
+    width: 15rem;
+    max-width: 20rem;
+    padding-top: 2rem;
+    margin: auto;
+  }
+
+  .super_reviewer_card_inner_div {
+
+    height: 15rem;
+    width: 13rem;
+
+
+  }
+
+  .super_reviewer_card .super_reviewer_card_inner_div div div.top_image img {
+    height: 3rem;
+    width: 3rem;
+    top: -13%;
+  }
+}
+
+@media only screen and (max-width: 386px) {
+  .super_reviewer_card {
+
+    height: 20rem;
+    width: 15rem;
+    max-width: 20rem;
+    padding-top: 2rem;
+    margin: auto;
+  }
+
+  .super_reviewer_card_inner_div {
+
+    height: 17rem;
+    width: 10rem;
+  }
+
+}
