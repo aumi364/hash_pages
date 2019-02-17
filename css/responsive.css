@@ -380,6 +380,10 @@
 
     width: 23rem;
   }
+
+  .write_review_form .form-group {
+    padding: 5rem;
+  }
 }
 
 /* Mobile Layout: 320px. */
