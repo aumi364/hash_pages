@@ -214,6 +214,11 @@
     display: none;
     visibility: hidden;
   }
+
+  #final_product_products {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-height: 991px) {

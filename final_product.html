@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="css/final_product.css">
 
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/glyphicon/glyphicon.css">
+    <link rel="stylesheet" href="css/fileinput.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -120,10 +123,114 @@
             <!-- main slider -->
             <div class="main_slider">
                 <div class="row">
-                    <div class="col-lg-9 .col-md-4 mt-4 pb-2">
+                    <div class="col-lg-8 mt-lg-4 pb-2 mr-lg-4" id="product_slider">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="product-thumbnail">
+                                    <div class="row">
+                                        <div class="col-3">
+
+                                            <ul class="thumb-image">
+
+                                                <li class="thumb-image-li final_product_image d-flex  justify-content-center">
+                                                    <a href="img/post/mp-1.png" onClick="changeImage(event,this)">
+                                                        <img src="img/post/mp-1.png" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li class="thumb-image-li final_product_image d-flex  justify-content-center">
+                                                    <a href="img/post/mp-2.png" onClick="changeImage(event,this)">
+                                                        <img src="img/post/mp-2.png" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li class="thumb-image-li final_product_image d-flex  justify-content-center">
+                                                    <a href="img/post/mp-3.png" onClick="changeImage(event,this)">
+                                                        <img src="img/post/mp-3.png" alt="">
+                                                    </a>
+                                                </li>
+
+                                                <li class="active thumb-image-li final_product_image d-flex  justify-content-center">
+                                                    <a href="img/post/mp-1.png" onClick="changeImage(event,this)">
+                                                        <img src="img/post/mp-1.png" alt="">
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="col-9 m-auto">
+
+                                            <div class="thumb-main-image">
+                                                <a href=""><img src="img/post/mp-1.png" alt="" id="thumb-main-image"></a></div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="text-left">
+                                    <h5>
+                                        Revlon photoready foundation
+                                    </h5>
+
+                                </div>
+                                <span class="product-rating">
+                                    <ul class="reviews">
+                                        <li><img src="img/star.png" alt="star"></li>
+                                        <li><img src="img/star.png" alt="star"></li>
+                                        <li><img src="img/star.png" alt="star"></li>
+                                        <li><img src="img/star.png" alt="star"></li>
+                                        <li><img src="img/star2.png" alt="star"></li>
+                                        <span class="ratingText">(4.5<i class="icofont-star"></i>)</span>
+                                    </ul>
+                                    <p><span>95</span> REVIEWS</p>
+                                </span>
+                                <div class="product_information">
+                                    <p class="text-uppercase">
+                                        Informaiton
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <ul class="left_side ">
+                                            <li>Brand:Revlon</li>
+                                            <li>Item:Foundation</li>
+                                            <li>Shade:Ivory</li>
+                                            <li>Color:Skin match</li>
+                                        </ul>
+                                        <div class="right_side text-right">
+                                            <button type="button" class="btn btn-orange "><a href="" class="write_review_modal"
+                                                    data-toggle="modal" data-target="#writeReview">Write Review</a></button>
+                                            <button type="button" class="btn btn-ash ">Suggest A Product</button>
+                                            <!-- buy button -->
+                                            <!-- <button type="button" class="btn btn-buy">Buy now</button> -->
+
+                                        </div>
+                                    </div>
+                                    <div class="product_descprition">
+                                        <p class="text-uppercase">
+                                            Description
+                                        </p>
+                                        <p>
+                                            <!-- 373 char max -->
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit
+                                            libero, architecto debitis quas sequi delectus adipisci non eveniet impedit
+                                            commodi voluptatum eum voluptatem dignissimos nobis neque incidunt magnam
+                                            dicta?
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit...<span class="color-ash"><i
+                                                    class="icofont-plus-square"></i></span>
+
+                                        </p>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
-                    <div class="col-lg-3 col-md-4  mt-4 pb-2" id="final_product_products">
+                    <div class="col-lg-3  mt-4 pb-2" id="final_product_products">
                         <div class="text-left">
                             <h5>Related Products</h5>
                         </div>
@@ -286,7 +393,7 @@
                                     <img src="img/users/user-1.jpg">
                                 </div>
                                 <h6>"Excellent product fast delivery..."</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus asd
                                     dolor...
                                     <span>
                                         <a href="" class="final_product_modal_link" data-toggle="modal" data-target="#myModal">
@@ -298,8 +405,6 @@
 
 
                                 <div class="reviewers_info text-right">
-                                    <p>Reviewed by</p>
-                                    <h6 class="reviewers_name">John doe</h6>
                                     <ul class="reviews ml-3 mt-1">
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
@@ -307,6 +412,9 @@
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
                                     </ul>
+                                    <p>Reviewed by</p>
+                                    <h6 class="reviewers_name">John doe</h6>
+
                                 </div>
 
 
@@ -325,7 +433,7 @@
                                     <img src="img/users/user-2.jpg">
                                 </div>
                                 <h6>"Excellent product fast delivery..."</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus asd
                                     dolor...
                                     <span>
                                         <a href="" class="final_product_modal_link" data-toggle="modal" data-target="#myModal">
@@ -337,8 +445,6 @@
 
 
                                 <div class="reviewers_info text-right">
-                                    <p>Reviewed by</p>
-                                    <h6 class="reviewers_name">John doe</h6>
                                     <ul class="reviews ml-3 mt-1">
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
@@ -346,6 +452,9 @@
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
                                     </ul>
+                                    <p>Reviewed by</p>
+                                    <h6 class="reviewers_name">John doe</h6>
+
                                 </div>
 
 
@@ -364,7 +473,7 @@
                                     <img src="img/users/user-3.jpg">
                                 </div>
                                 <h6>"Excellent product fast delivery..."</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus asd
                                     dolor...
                                     <span>
                                         <a href="" class="final_product_modal_link" data-toggle="modal" data-target="#myModal">
@@ -376,8 +485,6 @@
 
 
                                 <div class="reviewers_info text-right">
-                                    <p>Reviewed by</p>
-                                    <h6 class="reviewers_name">John doe</h6>
                                     <ul class="reviews ml-3 mt-1">
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
@@ -385,6 +492,9 @@
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
                                     </ul>
+                                    <p>Reviewed by</p>
+                                    <h6 class="reviewers_name">John doe</h6>
+
                                 </div>
 
 
@@ -403,7 +513,7 @@
                                     <img src="img/users/user-1.jpg">
                                 </div>
                                 <h6>"Excellent product fast delivery..."</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus asd
                                     dolor...
                                     <span>
                                         <a href="" class="final_product_modal_link" data-toggle="modal" data-target="#myModal">
@@ -415,8 +525,6 @@
 
 
                                 <div class="reviewers_info text-right">
-                                    <p>Reviewed by</p>
-                                    <h6 class="reviewers_name">John doe</h6>
                                     <ul class="reviews ml-3 mt-1">
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
@@ -424,6 +532,9 @@
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
                                     </ul>
+                                    <p>Reviewed by</p>
+                                    <h6 class="reviewers_name">John doe</h6>
+
                                 </div>
 
 
@@ -442,7 +553,7 @@
                                     <img src="img/users/user-2.jpg">
                                 </div>
                                 <h6>"Excellent product fast delivery..."</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus asd
                                     dolor...
                                     <span>
                                         <a href="" class="final_product_modal_link" data-toggle="modal" data-target="#myModal">
@@ -454,8 +565,6 @@
 
 
                                 <div class="reviewers_info text-right">
-                                    <p>Reviewed by</p>
-                                    <h6 class="reviewers_name">John doe</h6>
                                     <ul class="reviews ml-3 mt-1">
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
@@ -463,6 +572,9 @@
                                         <li><img src="img/star.png" alt="star"></li>
                                         <li><img src="img/star.png" alt="star"></li>
                                     </ul>
+                                    <p>Reviewed by</p>
+                                    <h6 class="reviewers_name">John doe</h6>
+
                                 </div>
 
 
@@ -486,7 +598,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-8" id="final_product_comment_section">
+                <div class="col-lg-9 col-md-12" id="final_product_comment_section">
                     <div class="final_product_header">
                         <h3>Add a review</h3>
                     </div>
@@ -496,6 +608,8 @@
                             <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
                             <a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
                         </div>
+                        <!-- to remove this comment box use .comment_none class  -->
+                        <!-- like this <form action="" class="final_product_comment_add_review comment_none"> -->
                         <form action="" class="final_product_comment_add_review">
                             <div class="form-group">
                                 <label for="comment"></label>
@@ -813,7 +927,73 @@
         </div>
 
     </section>
-    <!-- modal section -->
+    <!-- write review modal -->
+    <section>
+        <form action="" method="post">
+            <div class="modal fade" id="writeReview">
+                <div class="modal-dialog  modal-lg modal-dialog-centered">
+                    <div class="modal-content" id="write_review_modal_content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header d-flex justify-content-end">
+                            <button type="button" class="close" data-dismiss="modal"><i class="icofont-close"></i></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body" id="write_review_body">
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+
+                                <div class="write_review text-center">
+                                    <div class="write_review_form d-flex justify-content-center">
+                                        <div class="form-group">
+                                            <div class="input-group">
+
+                                                <input type="text" class="write_review_input form-control" name="headeline"
+                                                    placeholder="Headline: Excellent product fast delivery..." required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="write_review_form">
+                                        <h3 class="p-3">
+                                            <span class="color-orange ">Review</span>
+                                        </h3>
+                                        <div class="form-group">
+
+                                            <textarea class="form-control" rows="12" id="comment" name="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis fugiat repudiandae, ipsa similique eveniet ex excepturi sit numquam, dolore eum asperiores nemo. Rem voluptatem, laboriosam laudantium delectus voluptates dolorum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto. 
+                                    
+                                    </textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="file" id="file-1" name="file[]" multiple class="file"
+                                                data-overwrite-initial="false" data-show-upload="false"
+                                                data-max-file-count="6">
+                                        </div>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="submit" class="btn btn-ash" data-dismiss="modal">Save</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- review modal section -->
     <section>
         <div class="modal fade" id="myModal">
             <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -1137,6 +1317,10 @@
     <script src="plugins/OwlCarousel2.3/owl.carousel.min.js"></script>
     <!-- modal owlo carousel slider  -->
     <script src="js/reviewers_profile.js"></script>
+    <script src="js/final_product_js.js"></script>
+    <script src="js/fileinput.js"></script>
+
+
     <script>
         $(document).ready(function () {
 
