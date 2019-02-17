@@ -946,7 +946,7 @@ input[type].suggest_product_input {
     border-bottom: 2px solid rgb(172, 171, 171) !important;
 }
 
-input[type].suggest_productinput:focus {
+input[type].suggest_product_input:focus {
     outline: none;
     border: none;
     box-shadow: none;
