@@ -123,23 +123,28 @@ textarea::placeholder {
 
 button.btn.btn-like,
 button.btn.btn-report {
-
     background: transparent;
 }
 
-.report {
-    color: red;
-}
 
-.like {
-    color: #f0a30b;
-}
 
 button.btn.btn-like,
 button.btn.btn-report,
+button.btn.btn-report-reported,
+button.btn.btn-like-liked,
 .comment_card_content_body .d-flex p {
     font-size: .7rem;
     color: #858482;
+}
+
+button.btn.btn-report-reported {
+    background: transparent;
+    color: red;
+}
+
+button.btn.btn-like-liked {
+    color: #f0a30b;
+    background: transparent;
 }
 
 .like_report_btn .d-flex {
