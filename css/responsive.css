@@ -392,6 +392,10 @@
     padding-right: 5rem;
 
   }
+
+  #product_slider {
+    margin: 0;
+  }
 }
 
 /* Mobile Layout: 320px. */
