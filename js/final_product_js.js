@@ -14,3 +14,27 @@ function changeImage(event, element) {
     thumbnail_image.setAttribute('src', element.href);
     event.preventDefault();
 }
+
+$(document).ready(function () {
+
+    $(".final-product-super-reviewers").owlCarousel({
+        nav: true,
+        autoplayHoverPause: true,
+        navText: ['<i class="icofont-square-left"></i>', '<i class="icofont-square-right"></i>'],
+        loop: false,
+        rewind: true,
+        margin: 25,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            992: {
+                items: 2,
+            },
+            1200: {
+                items: 3,
+            }
+        }
+    });
+});
