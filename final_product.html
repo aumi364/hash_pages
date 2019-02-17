@@ -203,7 +203,8 @@
                                         <div class="right_side text-right">
                                             <button type="link" class="btn btn-orange class=" write_review_modal"
                                                 data-toggle="modal" data-target="#writeReview">Write Review</button>
-                                            <button type="button" class="btn btn-ash ">Suggest A Product</button>
+                                            <button type="button" class="btn btn-ash" data-toggle="modal" data-target="#suggestProduct">Suggest
+                                                A Product</button>
                                             <!-- buy button -->
                                             <!-- <button type="button" class="btn btn-buy">Buy now</button> -->
 
@@ -924,6 +925,55 @@
             </div>
         </div>
 
+    </section>
+    <!-- sugest a product modal -->
+    <section>
+        <form action="" method="post">
+            <div class="modal fade" id="suggestProduct">
+                <div class="modal-dialog  modal-lg modal-dialog-centered">
+                    <div class="modal-content" id="suggest_product_modal_content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header d-flex justify-content-end">
+                            <button type="button" class="close" data-dismiss="modal"><i class="icofont-close"></i></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body" id="suggest_product_body">
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+
+                                <div class="suggest_product text-center">
+                                    <div class="suggest_product_form d-flex justify-content-center">
+                                        <div class="form-group">
+                                            <div class="input-group">
+
+                                                <input type="text" class="suggest_product_input form-control" name="headeline"
+                                                    placeholder="Suggest a product" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="submit" class="btn btn-ash" data-dismiss="modal">Save</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </form>
     </section>
     <!-- write review modal -->
     <section>

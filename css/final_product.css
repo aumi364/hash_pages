@@ -2,7 +2,6 @@
     transition: all .5s ease;
 }
 
-
 .btn:focus {
     outline: 0;
     box-shadow: none;
@@ -812,11 +811,143 @@ input[type].write_review_input:focus {
     box-shadow: none;
 }
 
+a.write_review_modal {
+    color: white;
+}
 
+/* write review modal */
+.write_review_button button.btn {
+    position: absolute;
+    z-index: 1;
+    background: #000032;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.write_review_button button.btn:focus {
+    box-shadow: none;
+}
+
+.modal-content#write_review_modal_content {
+    padding: .2rem;
+}
+
+.modal-body#write_review_body {
+    border-bottom: 1px solid rgb(226, 222, 222);
+    overflow: auto !important;
+}
+
+.modal-body#write_review_body div>* {
+    padding-top: .1rem;
+}
+
+.modal-body#write_review_body .d-flex .write_review_picture {
+    padding-bottom: 1rem;
+}
+
+.write_review>* {
+    padding: .7rem;
+}
+
+
+#write_review_modal_content .modal-footer {}
+
+.write_review_form .form-group {
+    width: 30rem;
+    max-width: 100%;
+}
+
+.write_review_form .form-group textarea.form-control {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+
+}
+
+
+
+input[type].write_review_input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(172, 171, 171) !important;
+}
+
+input[type].write_review_input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 
 
 
 .file-input {
     max-height: 90%;
     max-width: 100%;
+}
+
+a.suggest_product_modal {
+    color: white;
+}
+
+/* write review modal */
+.suggest_product_button button.btn {
+    position: absolute;
+    z-index: 1;
+    background: #000032;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.suggest_product_button button.btn:focus {
+    box-shadow: none;
+}
+
+.modal-content#suggest_product_modal_content {
+    padding: .2rem;
+}
+
+.modal-body#suggest_product_body {
+    border-bottom: 1px solid rgb(226, 222, 222);
+    overflow: auto !important;
+}
+
+.modal-body#suggest_product_body div>* {
+    padding-top: .1rem;
+}
+
+.modal-body#suggest_product_body .d-flex .write_review_picture {
+    padding-bottom: 1rem;
+}
+
+.suggest_product>* {
+    padding: .7rem;
+}
+
+
+.suggest_product_form .form-group {
+    width: 30rem;
+    max-width: 100%;
+}
+
+.suggest_product_form .form-group textarea.form-control {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+
+}
+
+
+
+input[type].suggest_product_input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(172, 171, 171) !important;
+}
+
+input[type].suggest_productinput:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }

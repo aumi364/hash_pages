@@ -381,9 +381,16 @@
     width: 23rem;
   }
 
+
   .write_review_form .form-group {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .suggest_product_form .form-group {
+    padding-left: 5rem;
+    padding-right: 5rem;
+
   }
 }
 
