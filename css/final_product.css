@@ -642,6 +642,10 @@ label {
     margin-right: 40px;
 }
 
+#final_product_comment #final_product_products {
+    margin-left: 4.1rem;
+}
+
 #product_slider .row div div.text-left h5 {
     padding-top: .7rem;
     font-size: 1rem;
