@@ -1,5 +1,5 @@
 # Description
-I have use html,css,jquery,bootstrap to convert psd tempalte to web pages.
+I have used html,css,jquery,bootstrap to convert psd tempalte to web pages.
 # Tasks
 Except home page, I have designed the rest.
 ##### Home Page
