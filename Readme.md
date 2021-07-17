@@ -6,7 +6,7 @@ Except home page, I have designed the rest.
 (https://aumi364.github.io/hash_pages/)
 ##### Products Listing
 (https://aumi364.github.io/hash_pages/product_listing.html)
-##### Final Products
+##### Product Details
 (https://aumi364.github.io/hash_pages/final_product.html)
 ##### About Us
 (https://aumi364.github.io/hash_pages/about_us.html)
